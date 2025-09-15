@@ -1,0 +1,2067 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .elecson-btn a {
+        font-size: 16px;
+        padding: 14px 13px 14px;
+    }
+    .elecson-search {
+        margin-left: 12px;
+    }
+    .elecson-btn {
+        margin-left: 15px;
+    }
+    .elecson-btn a i {
+        font-size: 18px;
+        top: 2px;
+    }
+    .elecson_menu>ul>li>a {
+        margin: 28px 12px 28px;
+        font-size: 16px;
+    }
+    .hero-shape {
+        display: none;
+    }
+    .hero-shape1 {
+        display: none;
+    }
+    .hero-shape2 {
+        display: none;
+    }
+    .hero-shape3 {
+        display: none;
+    }
+    .hero-shape4 {
+        display: none;
+    }
+    .hero-shape5 {
+        display: none;
+    }
+    .hero-shape6 {
+        display: none;
+    }
+    .hero-shape7 {
+        display: none;
+    }
+    .hero-shape8 {
+        display: none;
+    }
+    .hero-shape9 {
+        display: none;
+    }
+    .service-single-box {
+        padding: 34px 18px 15px;
+    }
+    .about-thumb {
+        margin-left: 0;
+    }
+    .about-thumb img {
+        width: 94%;
+    }
+    .section-title-descr2 p {
+        width: 91%;
+    }
+    p.about-descr {
+        width: 90%;
+    }
+    p.about-descr::before {
+        height: 76px;
+    }
+    .section-main-title h1 {
+        font-size: 37px;
+        line-height: 44px;
+    }
+    h3.event-title a {
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+    .testi-shape {
+        display: none;
+    }
+    .testi-shape1 {
+        display: none;
+    }
+    .testi-shape2 {
+        display: none;
+    }
+    .testi-shape3 {
+        display: none;
+    }
+    .testi-shape4 {
+        display: none;
+    }
+    .testimonial-thumb {
+        margin-left: 0;
+    }
+    .testimonial-thumb img {
+        width: 100%;
+    }
+    .testi-content p {
+        font-size: 24px;
+        width: 100%;
+    }
+    .dollar-list ul li {
+        padding: 12px 16px 12px;
+        margin-right: 7px;
+    }
+    .dollar-right {
+        left: 47px;
+    }
+    .blog-content {
+        padding: 27px 23px 36px;
+    }
+    h3.blog-title a {
+        padding: 13px 0 32px;
+        font-size: 21px;
+    }
+    .download-single-box {
+        margin-left: 46px;
+    }
+    h3.download-title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .footer-shape {
+        display: none;
+    }
+    .footer-shape2 {
+        display: none;
+    }
+    /* inner page */
+    .campaigns-section .section-main-title h1 {
+        font-size: 38px;
+        line-height: 51px;
+    }
+    .about-left {
+        margin-left: -53px;
+    }
+    .section-main-title h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .mission-section.style-two .section-main-title h1 {
+        color: #fff;
+        line-height: 52px;
+        font-size: 37px;
+    }
+    .mission-thumb2 {
+        margin-left: 11px;
+    }
+    .single-team-box::after {
+        left: -49px;
+        width: 35%;
+    }
+    .volunteer-section {
+        background-position: center center;
+    }
+    /* campaigns area */
+    .campaigns-thumb img {
+        width: 100%;
+    }
+    .blog-contents.style .blog-title h3 a {
+        font-size: 19px;
+    }
+    .volunteer-left {
+        margin-left: 0;
+    }
+    .volunteer-thumb img {
+        width: 100%;
+    }
+    .become-volunteer .section-main-title h1 {
+        font-size: 32px;
+        line-height: 41px;
+    }
+    .volunteer-left {
+        margin-left: 0;
+    }
+    .become-volunteer .section-main-title h1 {
+        color: #fff;
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .volunteer-section.style-two .section-title {
+        margin-bottom: 15px;
+    }
+    .volunteer-thumb img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .topbar-info ul li {
+        font-size: 13px;
+        padding-right: 10px;
+    }
+    .topbar-info ul li a i {
+        font-size: 13px;
+    }
+    .topbar-list {
+        margin-right: -55px;
+    }
+    .topbar-list ul li {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .topbar-social-icon ul li a i {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    .elecson_nav_manu .elecson-btn a {
+        font-size: 14px;
+        padding: 13px 10px 13px;
+    }
+    .elecson_nav_manu .elecson-search {
+        margin-left: 0;
+        display: none;
+    }
+    .elecson_nav_manu .elecson-btn {
+        margin-left: 18px;
+    }
+    .elecson_nav_manu .elecson-btn a i {
+        font-size: 15px;
+        top: 2px;
+    }
+    .elecson_nav_manu .elecson-btn a::before {
+        width: 51%;
+    }
+    .elecson_menu>ul>li>a {
+        margin: 28px 7px 28px;
+        font-size: 13px;
+    }
+    .hero-area {
+        height: 622px;
+    }
+    h3.service-title::before {
+        bottom: 11px;
+    }
+    .hero-contant h1 {
+        font-size: 40px;
+        line-height: 51px;
+    }
+    .hero-contant p {
+        width: 83%;
+    }
+    .hero-shape {
+        display: none;
+    }
+    .hero-shape1 {
+        display: none;
+    }
+    .hero-shape2 {
+        display: none;
+    }
+    .hero-shape3 {
+        display: none;
+    }
+    .hero-shape4 {
+        display: none;
+    }
+    .hero-shape5 {
+        display: none;
+    }
+    .hero-shape6 {
+        display: none;
+    }
+    .hero-shape7 {
+        display: none;
+    }
+    .hero-shape8 {
+        display: none;
+    }
+    .hero-shape9 {
+        display: none;
+    }
+    .hero-shape3 {
+        top: 90%;
+    }
+    .service-single-box {
+        padding: 20px 18px 6px;
+        top: -47px;
+    }
+    h3.service-title {
+        font-size: 17px;
+        line-height: 23px;
+        padding: 15px 0 26px;
+    }
+    .about-thumb {
+        margin-left: 0;
+    }
+    .about-thumb img {
+        width: 94%;
+    }
+    .section-title-descr2 p {
+        width: 91%;
+    }
+    p.about-descr {
+        width: 90%;
+    }
+    p.about-descr::before {
+        height: 76px;
+    }
+    .section-main-title h1 {
+        font-size: 31px;
+        line-height: 42px;
+    }
+    .portfolio_nav {
+        text-align: left;
+    }
+    .portfolio_menu ul li {
+        padding-left: 16px;
+    }
+    .event-content {
+        padding: 0 23px 0;
+    }
+    span.event-time {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    h3.event-title a {
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+    .testi-shape {
+        display: none;
+    }
+    .testi-shape1 {
+        display: none;
+    }
+    .testi-shape2 {
+        display: none;
+    }
+    .testi-shape3 {
+        display: none;
+    }
+    .testi-shape4 {
+        display: none;
+    }
+    .testimonial-thumb {
+        margin-left: 0;
+    }
+    .testimonial-thumb img {
+        width: 100%;
+    }
+    .testi-content p {
+        font-size: 20px;
+        width: 100%;
+        line-height: 31px;
+        padding: 48px 0 27px;
+    }
+    .owl-dots {
+        padding-top: 34px;
+        left: -42%;
+    }
+    .blog-content {
+        padding: 27px 18px 36px;
+    }
+    .blog-meta ul li {
+        font-size: 14px;
+        padding-right: 26px;
+    }
+    h3.blog-title a {
+        padding: 13px 0 25px;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .download-single-box {
+        margin-left: 46px;
+    }
+    h3.download-title {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .mission-single-box {
+        margin-bottom: 50px;
+    }
+    .mission-area .section-title-descr p {
+        width: 68%;
+    }
+    .mission-area .section-title.text-center {
+        margin-bottom: 50px;
+    }
+    h3.mission-title {
+        font-size: 20px;
+    }
+    .mission-icon {
+        margin-right: 30px;
+    }
+    p.mission-title {
+        width: 100%;
+    }
+    .team-area .section-title-descr p {
+        width: 117%;
+        margin-top: -41px;
+        margin-left: -43px;
+    }
+    h3.team-title {
+        font-size: 20px;
+        padding: 17px 0 3px;
+    }
+    .team-social-icon ul li a i {
+        height: 32px;
+        width: 32px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+    .team-thumb::before {
+        left: 10px;
+        top: 11px;
+    }
+    .dollar-list ul li {
+        padding: 12px 15px 12px;
+        margin-right: 3px;
+        font-size: 18px;
+    }
+    .dollar-right {
+        left: 10px;
+    }
+    .dollar-list {
+        padding: 0 0 44px;
+    }
+    .form-field input {
+        margin-bottom: 17px;
+    }
+    .footer-shape {
+        display: none;
+    }
+    .footer-shape2 {
+        display: none;
+    }
+    /* inner page */
+    .mission-section.style-two .section-main-title h1 {
+        line-height: 45px;
+        font-size: 30px;
+    }
+    .about-thumb img {
+        width: 100%;
+    }
+    .section-main-title h1 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .mission-icon {
+        float: inherit;
+        margin-bottom: 30px;
+    }
+    .misson-content {
+        padding: 0 0px 0;
+    }
+    .mission-thumb2 img {
+        width: 100%;
+    }
+    .single-team-box::after {
+        display: none;
+    }
+    .volunteer-section {
+        background-position: left;
+    }
+    .volunteer-title h2 {
+        font-size: 30px;
+    }
+    .volunteer-btn a {
+        padding: 15px 12px;
+    }
+    h3.title {
+        font-size: 20px;
+    }
+    .footer-widget-title h2 {
+        font-size: 18px;
+    }
+    .footer-widget-address ul li {
+        font-size: 15px;
+    }
+    /* campaigns area */
+    .campaigns-thumb img {
+        width: 100%;
+    }
+    .donations-detials-title h2 a {
+        font-size: 28px;
+    }
+    .blog-contents.style .blog-title h3 a {
+        font-size: 19px;
+    }
+    p.meta-blog-date i {
+        margin-right: 5px;
+    }
+    p.meta-blog-date {
+        font-size: 15px;
+    }
+    .blog-section.tow.style3 .blog-contents.style {
+        padding: 34px 6px 32px 15px;
+    }
+    .blog-section.tow.style3 .blog-contents.style .blog-title h3 a {
+        font-size: 16px;
+    }
+    .blog-details-content h2 {
+        font-size: 24px;
+        line-height: 54px;
+    }
+    .blog-details-author-thumb {
+        float: inherit;
+        margin-bottom: 20px;
+    }
+    .volunteer-left {
+        margin-left: 0;
+    }
+    .become-volunteer .section-main-title h1 {
+        color: #fff;
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .volunteer-section.style-two .section-title {
+        margin-bottom: 15px;
+    }
+    .volunteer-thumb img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .elecson_nav_manu {
+        display: none;
+    }
+    .elecson-search {
+        display: none;
+    }
+    .header-top-area {
+        display: none;
+    }
+    .sticky {
+        padding: 0;
+        position: relative !important;
+    }
+    .header-btn {
+        display: none;
+    }
+    .sticky .elecson-btn a {
+        display: none;
+    }
+    .topbar-area {
+        display: none;
+    }
+    .elecson-btn {
+        padding: 0 0 0;
+    }
+    .hero-area {
+        height: 523px;
+        background-repeat: inherit;
+        background-position: inherit;
+        background-size: inherit;
+    }
+    .hero-shape {
+        display: none;
+    }
+    .hero-shape1 {
+        display: none;
+    }
+    .hero-shape2 {
+        display: none;
+    }
+    .hero-shape3 {
+        display: none;
+    }
+    .hero-shape4 {
+        display: none;
+    }
+    .hero-shape5 {
+        display: none;
+    }
+    .hero-shape6 {
+        display: none;
+    }
+    .hero-shape7 {
+        display: none;
+    }
+    .hero-shape8 {
+        display: none;
+    }
+    .hero-shape9 {
+        display: none;
+    }
+    .hero-contant h5 {
+        font-size: 23px;
+        margin-bottom: 14px;
+    }
+    .hero-contant h1 {
+        font-size: 29px;
+        line-height: 45px;
+    }
+    .hero-contant p {
+        padding: 16px 0 35px;
+        width: 100%;
+    }
+    .mission-area .section-title.text-center {
+        margin-bottom: 40px;
+    }
+    .service-area {
+        padding: 78px 0 50px;
+    }
+    .service-single-box {
+        top: 0;
+    }
+    p.service-descr {
+        width: 87%;
+    }
+    .about-area {
+        padding: 0 0 70px;
+    }
+    .about-thumb {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .about-thumb img {
+        width: 100%;
+    }
+    .section-title-descr2 p {
+        width: 84%;
+    }
+    p.about-descr {
+        width: 90%;
+    }
+    .about-sine {
+        margin-left: 0;
+        margin-bottom: 37px;
+    }
+    .event-area {
+        padding: 76px 0 49px;
+    }
+    .portfolio_nav {
+        text-align: left;
+    }
+    .portfolio_menu ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .event-area .section-title.text-left {
+        margin-bottom: 6px;
+    }
+    .section-main-title h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .event-content {
+        padding: 0 22px 0;
+    }
+    h3.event-title a {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .testimonial-area {
+        padding: 80px 0 80px;
+    }
+    .testi-shape {
+        display: none;
+    }
+    .testi-shape1 {
+        display: none;
+    }
+    .testi-shape2 {
+        display: none;
+    }
+    .testi-shape3 {
+        display: none;
+    }
+    .testi-shape4 {
+        display: none;
+    }
+    .testi-shap3 {
+        display: none;
+    }
+    .testi-content p {
+        padding: 47px 0 27px;
+        width: 88%;
+    }
+    .testimonial-thumb {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .testimonial-thumb img {
+        width: 100%;
+    }
+    .owl-dots {
+        padding-top: 29px;
+        left: -44%;
+    }
+    .mission-area {
+        padding: 77px 0 32px;
+    }
+    .section-title-descr p {
+        width: 91%;
+    }
+    p.mission-title {
+        width: 90%;
+    }
+    .section-title.text-center {
+        margin-bottom: 40px;
+    }
+    .mission-single-box {
+        margin-bottom: 40px;
+    }
+    .section-title.text-left {
+        margin-bottom: 36px;
+    }
+    .team-area {
+        padding: 75px 0 49px;
+    }
+    .section-sub-title h5 {
+        margin-bottom: 10px;
+    }
+    .team-area .section-title-descr p {
+        display: none;
+    }
+    .team-thumb::before {
+        left: 16px;
+        top: 16px;
+    }
+    .dollar-area {
+        background-repeat: inherit;
+        background-position: inherit;
+        background-size: inherit;
+        padding: 79px 0 69px;
+        margin-left: -114%;
+    }
+    .dollar-right {
+        left: 63%;
+    }
+    .blog-area {
+        padding: 78px 0 51px;
+    }
+    .blog-content {
+        padding: 27px 24px 36px;
+    }
+    h3.blog-title a {
+        padding: 13px 0 24px;
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .download-single-box {
+        margin-left: 31px;
+    }
+    .download-icon {
+        margin-right: 14px;
+    }
+    h3.download-title {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .footer-widget {
+        margin-bottom: 25px;
+    }
+    .footer-area {
+        padding: 79px 0 32px;
+    }
+    .footer-copyright-text {
+        margin: 79px 0 0;
+    }
+    .footer-shape {
+        display: none;
+    }
+    .footer-shape2 {
+        display: none;
+    }
+    /* inner page */
+    .campaigns-section .section-main-title h1 {
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .about-left {
+        margin-bottom: 30px;
+    }
+    .volunteer-follow-left {
+        margin-top: 30px;
+    }
+    /* campaigns area */
+    .campaigns-left {
+        margin-bottom: 30px;
+    }
+    .campaigns-thumb img {
+        width: 100%;
+    }
+    .campaigns-right {
+        margin-bottom: 30px;
+    }
+    .donations-detials-title h2 a {
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .up.donation-description p {
+        padding: 5px 7px 7px 0px;
+    }
+    .donation-list ul li {
+        font-size: 13px;
+    }
+    .rpost-content h4 a {
+        font-size: 13px;
+    }
+    .row.donate_upper {
+        padding: 50px 8px 45px;
+    }
+    button.tablink {
+        width: 84px;
+    }
+    .blog-contents.style .blog-title h3 a {
+        font-size: 18px;
+    }
+    .blog-section.tow.style3 .blog-contents.style {
+        padding: 34px 6px 32px 15px;
+    }
+    .blog-section.tow.style3 .blog-contents.style .blog-title h3 a {
+        font-size: 16px;
+    }
+    .blog-details-content h2 {
+        font-size: 25px;
+    }
+    .blog-details-author-thumb {
+        float: inherit;
+        margin-bottom: 20px;
+    }
+    .gmap_canvas {
+        width: 210%;
+    }
+    .contact-left {
+        margin-left: 0;
+    }
+    .volunteer-left {
+        margin-left: 0;
+    }
+    .become-volunteer .section-main-title h1 {
+        color: #fff;
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .volunteer-section.style-two .section-title {
+        margin-bottom: 15px;
+    }
+    .volunteer-thumb img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-form-box.style1 {
+        padding: 27px 15px 32px;
+        margin-top: -199px;
+    }
+}
+
+/* Large Mobile :600px. */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .elecson_nav_manu {
+        display: none;
+    }
+    .elecson-search {
+        display: none;
+    }
+    .header-top-area {
+        display: none;
+    }
+    .sticky {
+        padding: 0;
+        position: relative !important;
+    }
+    .elecson-btn {
+        padding: 0 0 0;
+    }
+    .header-btn {
+        display: none;
+    }
+    .sticky .elecson-btn a {
+        display: none;
+    }
+    .topbar-area {
+        display: none;
+    }
+    .hero-area {
+        height: 486px;
+        background-repeat: inherit;
+        background-position: inherit;
+        background-size: inherit;
+    }
+    .hero-contant {
+        margin-top: 14px;
+    }
+    .hero-shape {
+        display: none;
+    }
+    .hero-shape1 {
+        display: none;
+    }
+    .hero-shape2 {
+        display: none;
+    }
+    .hero-shape3 {
+        display: none;
+    }
+    .hero-shape4 {
+        display: none;
+    }
+    .hero-shape5 {
+        display: none;
+    }
+    .hero-shape6 {
+        display: none;
+    }
+    .hero-shape7 {
+        display: none;
+    }
+    .hero-shape8 {
+        display: none;
+    }
+    .hero-shape9 {
+        display: none;
+    }
+    .hero-contant h5 {
+        font-size: 23px;
+        margin-bottom: 14px;
+    }
+    .hero-contant h1 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .hero-contant p {
+        padding: 16px 0 35px;
+        width: 85%;
+    }
+    .mission-area .section-title.text-center {
+        margin-bottom: 40px;
+    }
+    .service-area {
+        padding: 78px 0 50px;
+    }
+    .event-content {
+        bottom: 60px;
+    }
+    .service-single-box {
+        top: 0;
+    }
+    p.service-descr {
+        width: 87%;
+    }
+    .about-area {
+        padding: 0 0 70px;
+    }
+    .about-thumb {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .about-thumb img {
+        width: 100%;
+    }
+    .section-title-descr2 p {
+        width: 96%;
+    }
+    p.about-descr {
+        width: 94%;
+    }
+    p.about-descr::before {
+        height: 77px;
+    }
+    .about-sine {
+        margin-left: 0;
+        margin-bottom: 37px;
+    }
+    .event-area {
+        padding: 76px 0 49px;
+    }
+    .portfolio_nav {
+        text-align: left;
+    }
+    .portfolio_menu ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .portfolio_menu ul li {
+        padding-right: 18px;
+        padding-left: 0;
+    }
+    .event-area .section-title.text-left {
+        margin-bottom: 6px;
+    }
+    .section-main-title h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .event-content {
+        padding: 0 22px 0;
+    }
+    h3.event-title a {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .testimonial-area {
+        padding: 80px 0 80px;
+    }
+    .testi-shape {
+        display: none;
+    }
+    .testi-shape1 {
+        display: none;
+    }
+    .testi-shape2 {
+        display: none;
+    }
+    .testi-shape3 {
+        display: none;
+    }
+    .testi-shape4 {
+        display: none;
+    }
+    .testi-shap3 {
+        display: none;
+    }
+    .testi-content p {
+        padding: 47px 0 27px;
+        width: 109%;
+    }
+    .testimonial-thumb {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .testimonial-thumb img {
+        width: 100%;
+    }
+    .owl-dots {
+        padding-top: 29px;
+        left: -44%;
+    }
+    .mission-area {
+        padding: 77px 0 32px;
+    }
+    .section-title-descr p {
+        width: 91%;
+    }
+    p.mission-title {
+        width: 82%;
+    }
+    .section-title.text-center {
+        margin-bottom: 40px;
+    }
+    .mission-single-box {
+        margin-bottom: 40px;
+    }
+    .section-title.text-left {
+        margin-bottom: 36px;
+    }
+    .team-area {
+        padding: 75px 0 49px;
+    }
+    .section-sub-title h5 {
+        margin-bottom: 10px;
+    }
+    .team-area .section-title-descr p {
+        display: none;
+    }
+    .team-thumb::before {
+        left: 24px;
+        top: 24px;
+    }
+    .dollar-area {
+        background-repeat: inherit;
+        background-position: inherit;
+        background-size: inherit;
+        padding: 79px 0 69px;
+        margin-left: -146%;
+    }
+    .dollar-right {
+        left: 84%;
+    }
+    .dollar-list {
+        padding: 0 0 43px;
+    }
+    .dollar-list ul li a {
+        padding: 0 3px 0;
+        font-size: 19px;
+    }
+    .dollar-list ul li {
+        padding: 10px 14px 10px;
+        font-size: 19px;
+        margin-right: 5px;
+    }
+    .blog-area {
+        padding: 78px 0 51px;
+    }
+    .blog-content {
+        padding: 27px 24px 36px;
+    }
+    h3.blog-title a {
+        padding: 13px 0 24px;
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .download-area {
+        background-repeat: inherit;
+        background-position: inherit;
+        ;
+    }
+    .download-area .elecson-btn {
+        margin-bottom: 25px;
+    }
+    .download-single-box {
+        margin-left: 0;
+    }
+    .download-icon {
+        margin-right: 14px;
+    }
+    h3.download-title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .footer-widget {
+        margin-bottom: 25px;
+    }
+    .footer-area {
+        padding: 79px 0 32px;
+    }
+    .footer-copyright-text {
+        margin: 79px 0 0;
+    }
+    .footer-shape {
+        display: none;
+    }
+    .footer-shape2 {
+        display: none;
+    }
+    /* inner page */
+    .campaigns-section .section-main-title h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .about-left {
+        margin-bottom: 30px;
+    }
+    .section-main-title h1 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .mission-thumb2 {
+        margin-left: 0;
+    }
+    .mission-thumb2 img {
+        width: 100%;
+    }
+    .volunteer-follow-left {
+        margin-top: 30px;
+    }
+    .volunteer-btn {
+        text-align: left;
+        margin-right: 0;
+    }
+    .volunteer-btn a {
+        margin-top: 30px;
+    }
+    .mission-area .section-title.text-center {
+        margin-bottom: 49px;
+    }
+    .blog-area .section-title.text-center {
+        margin-bottom: 47px;
+    }
+    .service-area .section-title.text-center {
+        margin-bottom: 49px;
+    }
+    /* campaigns area */
+    .campaigns-left {
+        margin-bottom: 30px;
+    }
+    .campaigns-thumb img {
+        width: 100%;
+    }
+    .campaigns-right {
+        margin-bottom: 30px;
+    }
+    .donations-detials-title h2 a {
+        font-size: 23px;
+    }
+    .event-thumb {
+        margin-bottom: 30px;
+    }
+    .row.donate_upper {
+        padding: 50px 0px 45px;
+    }
+    button.tablink {
+        width: 88px;
+    }
+    .blog-details-content h2 {
+        font-size: 25px;
+    }
+    .blog-details-author-thumb {
+        float: inherit;
+        margin-bottom: 20px;
+    }
+    .contact-left {
+        margin-left: 0;
+    }
+    .volunteer-left {
+        margin-left: 0;
+    }
+    .become-volunteer .section-main-title h1 {
+        color: #fff;
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .volunteer-section.style-two .section-title {
+        margin-bottom: 15px;
+    }
+    .volunteer-thumb img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-form-box.style1 {
+        padding: 27px 15px 32px;
+        margin-top: -199px;
+    }
+}
+
+/* small mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .elecson_nav_manu {
+        display: none;
+    }
+    .elecson-search {
+        display: none;
+    }
+    .header-top-area {
+        display: none;
+    }
+    .sticky {
+        padding: 0;
+        position: relative !important;
+    }
+    .elecson-btn {
+        padding: 0 0 0;
+    }
+    .header-btn {
+        display: none;
+    }
+    .sticky .elecson-btn a {
+        display: none;
+    }
+    .topbar-area {
+        display: none;
+    }
+    .hero-area {
+        height: 486px;
+        background-repeat: inherit;
+        background-position: inherit;
+        background-size: inherit;
+    }
+    .hero-contant {
+        margin-top: 14px;
+    }
+    .hero-shape {
+        display: none;
+    }
+    .hero-shape1 {
+        display: none;
+    }
+    .hero-shape2 {
+        display: none;
+    }
+    .hero-shape3 {
+        display: none;
+    }
+    .hero-shape4 {
+        display: none;
+    }
+    .hero-shape5 {
+        display: none;
+    }
+    .hero-shape6 {
+        display: none;
+    }
+    .hero-shape7 {
+        display: none;
+    }
+    .hero-shape8 {
+        display: none;
+    }
+    .hero-shape9 {
+        display: none;
+    }
+    .hero-contant h5 {
+        font-size: 23px;
+        margin-bottom: 14px;
+    }
+    .hero-contant h1 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .hero-contant p {
+        padding: 16px 0 35px;
+        width: 85%;
+    }
+    .mission-area .section-title.text-center {
+        margin-bottom: 40px;
+    }
+    .event-content {
+        bottom: 55px;
+    }
+    .service-area {
+        padding: 78px 0 50px;
+    }
+    .service-single-box {
+        top: 0;
+    }
+    p.service-descr {
+        width: 87%;
+    }
+    .about-area {
+        padding: 0 0 70px;
+    }
+    .about-thumb {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .about-thumb img {
+        width: 100%;
+    }
+    .section-title-descr2 p {
+        width: 96%;
+    }
+    p.about-descr {
+        width: 92%;
+    }
+    p.about-descr::before {
+        height: 77px;
+    }
+    .about-sine {
+        margin-left: 0;
+        margin-bottom: 37px;
+    }
+    .event-area {
+        padding: 76px 0 49px;
+    }
+    .portfolio_nav {
+        text-align: left;
+    }
+    .portfolio_menu ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .portfolio_menu ul li {
+        padding-right: 13px;
+        padding-left: 0;
+        font-size: 16px;
+    }
+    .event-area .section-title.text-left {
+        margin-bottom: 6px;
+    }
+    .section-main-title h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .event-content {
+        padding: 0 22px 0;
+    }
+    h3.event-title a {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .testimonial-area {
+        padding: 80px 0 80px;
+    }
+    .testi-shape {
+        display: none;
+    }
+    .testi-shape1 {
+        display: none;
+    }
+    .testi-shape2 {
+        display: none;
+    }
+    .testi-shape3 {
+        display: none;
+    }
+    .testi-shape4 {
+        display: none;
+    }
+    .testi-shap3 {
+        display: none;
+    }
+    .testi-content p {
+        padding: 47px 0 27px;
+        width: 103%;
+        font-size: 21px;
+    }
+    .testimonial-thumb {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .testimonial-thumb img {
+        width: 100%;
+    }
+    .owl-dots {
+        padding-top: 29px;
+        left: -44%;
+    }
+    .mission-area {
+        padding: 77px 0 32px;
+    }
+    .mission-icon {
+        margin-left: 21px;
+    }
+    .section-title-descr p {
+        width: 91%;
+    }
+    p.mission-title {
+        width: 82%;
+    }
+    .section-title.text-center {
+        margin-bottom: 40px;
+    }
+    .mission-single-box {
+        margin-bottom: 40px;
+    }
+    .section-title.text-left {
+        margin-bottom: 36px;
+    }
+    .team-area {
+        padding: 75px 0 49px;
+    }
+    .section-sub-title h5 {
+        margin-bottom: 10px;
+    }
+    .team-area .section-title-descr p {
+        display: none;
+    }
+    .team-thumb::before {
+        left: 20px;
+        top: 22px;
+    }
+    .dollar-area {
+        background-repeat: inherit;
+        background-position: inherit;
+        background-size: inherit;
+        padding: 79px 0 69px;
+        margin-left: -182%;
+    }
+    .dollar-right {
+        left: 66%;
+    }
+    .dollar-area .section-main-title h1 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .dollar-list {
+        padding: 0 0 43px;
+    }
+    .dollar-list ul li a {
+        padding: 0 3px 0;
+        font-size: 17px;
+    }
+    .dollar-list ul li {
+        padding: 8px 9px 8px;
+        font-size: 17px;
+        margin-right: 5px;
+    }
+    .blog-content {
+        padding: 27px 28px 36px;
+    }
+    .blog-content {
+        padding: 27px 24px 36px;
+    }
+    h3.blog-title a {
+        padding: 13px 0 24px;
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .download-area {
+        background-repeat: inherit;
+        background-position: inherit;
+        ;
+    }
+    .download-area .elecson-btn {
+        margin-bottom: 25px;
+    }
+    .download-single-box {
+        margin-left: 0;
+    }
+    .download-icon {
+        margin-right: 14px;
+    }
+    h3.download-title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .footer-widget {
+        margin-bottom: 25px;
+    }
+    .footer-area {
+        padding: 79px 0 32px;
+    }
+    .footer-widget-text p {
+        width: 68%;
+    }
+    .footer-copyright-text {
+        margin: 79px 0 0;
+    }
+    p.footer-Newsletter-text {
+        width: 69%;
+    }
+    /* inner page */
+    .campaigns-section .section-main-title h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .donate-section .section-main-title h1 {
+        line-height: 38px;
+    }
+    .about-section .section-main-title h1 {
+        line-height: 38px;
+    }
+    .mission-section.style-two .section-main-title h1 {
+        line-height: 44px;
+    }
+    .about-left {
+        margin-bottom: 30px;
+    }
+    .mission-thumb2 {
+        margin-left: 0;
+    }
+    .mission-thumb2 img {
+        width: 100%;
+    }
+    .volunteer-follow-left {
+        margin-top: 30px;
+    }
+    .volunteer-btn {
+        text-align: left;
+        margin-right: 0;
+    }
+    .volunteer-btn a {
+        margin-top: 30px;
+    }
+    /* campaigns area */
+    .campaigns-left {
+        margin-bottom: 30px;
+    }
+    .campaigns-thumb img {
+        width: 100%;
+    }
+    .campaigns-right {
+        margin-bottom: 30px;
+    }
+    .donations-detials-title h2 a {
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .event-thumb {
+        margin-bottom: 30px;
+    }
+    .row.donate_upper {
+        background: #012549;
+        margin: 0;
+        padding: 50px 0px 45px;
+        border-top: 5px solid #3394F5;
+    }
+    .blog-details-content h2 {
+        font-size: 25px;
+    }
+    .blog-details-author-thumb {
+        float: inherit;
+        margin-bottom: 20px;
+    }
+    .blog-details-comment-reply {
+        right: -17px;
+    }
+    .contact-left {
+        margin-left: 0;
+    }
+    .volunteer-left {
+        margin-left: 0;
+    }
+    .volunteer-section.style-two .section-main-title h1 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    .volunteer-section.style-two .section-title {
+        margin-bottom: 15px;
+    }
+    .volunteer-thumb img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-form-box.style1 {
+        padding: 27px 15px 32px;
+        margin-top: -199px;
+    }
+}
+
+/* small mobile :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .elecson_nav_manu {
+        display: none;
+    }
+    .elecson-search {
+        display: none;
+    }
+    .header-top-area {
+        display: none;
+    }
+    .elecson-btn {
+        padding: 0 0 0;
+    }
+    .sticky {
+        padding: 0;
+        position: relative !important;
+    }
+    .header-btn {
+        display: none;
+    }
+    .sticky .elecson-btn a {
+        display: none;
+    }
+    .topbar-area {
+        display: none;
+    }
+    .hero-area {
+        height: 508px;
+        background-repeat: inherit;
+        background-position: inherit;
+        background-size: inherit;
+    }
+    .hero-contant {
+        margin-top: 14px;
+    }
+    .hero-shape {
+        display: none;
+    }
+    .hero-shape1 {
+        display: none;
+    }
+    .hero-shape2 {
+        display: none;
+    }
+    .hero-shape3 {
+        display: none;
+    }
+    .hero-shape4 {
+        display: none;
+    }
+    .hero-shape5 {
+        display: none;
+    }
+    .hero-shape6 {
+        display: none;
+    }
+    .hero-shape7 {
+        display: none;
+    }
+    .hero-shape8 {
+        display: none;
+    }
+    .hero-shape9 {
+        display: none;
+    }
+    .hero-contant h5 {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    .hero-area .elecson-btn a {
+        padding: 14px 21px 14px;
+    }
+    .hero-video-icon a {
+        height: 52px;
+        width: 52px;
+        line-height: 52px;
+        bottom: 20px;
+        margin-left: 16px;
+    }
+    .hero-contant h1 {
+        font-size: 24px;
+        line-height: 37px;
+    }
+    .hero-contant p {
+        padding: 16px 0 35px;
+        width: 85%;
+    }
+    .mission-area .section-title.text-center {
+        margin-bottom: 40px;
+    }
+    .event-content {
+        bottom: 50px;
+    }
+    .service-area {
+        padding: 78px 0 50px;
+    }
+    .service-single-box {
+        top: 0;
+        padding: 33px 23px 15px;
+    }
+    p.service-descr {
+        width: 87%;
+    }
+    .about-area {
+        padding: 0 0 70px;
+    }
+    .about-thumb {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .about-thumb img {
+        width: 100%;
+    }
+    .section-title-descr2 p {
+        width: 97%;
+    }
+    p.about-descr {
+        width: 92%;
+    }
+    p.about-descr::before {
+        height: 137px;
+    }
+    .about-area .elecson-btn a {
+        padding: 15px 21px 16px;
+    }
+    .about-sine {
+        margin-left: 0;
+        margin-bottom: 37px;
+    }
+    .event-area {
+        padding: 76px 0 49px;
+    }
+    .portfolio_nav {
+        text-align: left;
+    }
+    .portfolio_menu ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .portfolio_menu ul li {
+        padding-right: 13px;
+        padding-left: 0;
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .event-area .section-sub-title h5 {
+        margin-bottom: 14px;
+    }
+    .event-area .section-title.text-left {
+        margin-bottom: 15px;
+    }
+    span.event-time {
+        font-size: 14px;
+        line-height: 31px;
+    }
+    .section-main-title h1 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .event-content {
+        padding: 0 22px 0;
+    }
+    h3.event-title a {
+        font-size: 19px;
+        margin-bottom: 9px;
+    }
+    .testimonial-area {
+        padding: 80px 0 80px;
+    }
+    .testi-shape {
+        display: none;
+    }
+    .testi-shape1 {
+        display: none;
+    }
+    .testi-shape2 {
+        display: none;
+    }
+    .testi-shape3 {
+        display: none;
+    }
+    .testi-shape4 {
+        display: none;
+    }
+    .testi-shap3 {
+        display: none;
+    }
+    .testi-content p {
+        padding: 33px 0 22px;
+        width: 96%;
+        font-size: 19px;
+        line-height: 33px;
+    }
+    .testimonial-thumb {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .testimonial-thumb img {
+        width: 100%;
+    }
+    .owl-dots {
+        padding-top: 29px;
+        left: -39%;
+    }
+    .mission-area {
+        padding: 77px 0 32px;
+    }
+    .mission-icon {
+        margin-left: 10px;
+    }
+    h3.mission-title {
+        font-size: 20px;
+    }
+    .mission-icon {
+        margin-right: 30px;
+    }
+    .section-title-descr p {
+        width: 98%;
+    }
+    p.mission-title {
+        width: 92%;
+    }
+    .section-title.text-center {
+        margin-bottom: 40px;
+    }
+    .mission-single-box {
+        margin-bottom: 40px;
+    }
+    .section-title.text-left {
+        margin-bottom: 36px;
+    }
+    .team-area {
+        padding: 75px 0 49px;
+    }
+    .section-sub-title h5 {
+        margin-bottom: 13px;
+        font-size: 16px;
+    }
+    .team-area .section-title-descr p {
+        display: none;
+    }
+    .team-thumb::before {
+        left: 13px;
+        top: 14px;
+    }
+    .dollar-area {
+        background-repeat: inherit;
+        background-position: inherit;
+        background-size: inherit;
+        padding: 79px 0 69px;
+        margin-left: -273%;
+    }
+    .dollar-right {
+        left: 74%;
+    }
+    .dollar-area .section-main-title h1 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .dollar-area .elecson-btn a {
+        padding: 14px 16px 14px;
+    }
+    .dollar-list {
+        padding: 0 0 43px;
+    }
+    .dollar-list ul li a {
+        padding: 0 3px 0;
+        font-size: 17px;
+    }
+    .dollar-list ul li {
+        padding: 8px 18px 8px;
+        font-size: 17px;
+        margin-right: 5px;
+    }
+    .blog-area {
+        padding: 73px 0 51px;
+    }
+    .blog-content {
+        padding: 27px 28px 36px;
+    }
+    .blog-content {
+        padding: 27px 24px 36px;
+    }
+    .blog-meta ul li {
+        padding-right: 19px;
+    }
+    li.list::before {
+        left: -15px;
+    }
+    h3.blog-title a {
+        padding: 13px 0 24px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .download-area {
+        background-repeat: inherit;
+        background-position: inherit;
+        ;
+    }
+    .download-area .elecson-btn a {
+        padding: 15px 21px 15px;
+    }
+    .download-area .elecson-btn {
+        margin-bottom: 25px;
+    }
+    .download-single-box {
+        margin-left: 0;
+    }
+    .download-icon {
+        margin-right: 14px;
+    }
+    h3.download-title {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .footer-widget {
+        margin-bottom: 25px;
+    }
+    .footer-area {
+        padding: 79px 0 32px;
+    }
+    .footer-widget-text p {
+        width: 98%;
+    }
+    .footer-copyright-text {
+        margin: 79px 0 0;
+    }
+    p.footer-Newsletter-text {
+        width: 69%;
+    }
+    /* inner page */
+    .breadcumb-title h1 {
+        font-size: 32px;
+    }
+    .campaigns-section .section-main-title h1 {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    .donate-section .section-main-title h1 {
+        line-height: 26px;
+        font-size: 18px;
+    }
+    .volunteer-left {
+        margin-left: 0;
+    }
+    .volunteer-section.style-two .section-main-title h1 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    .volunteer-section.style-two .section-title {
+        margin-bottom: 15px;
+    }
+    .volunteer-thumb img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-form-box.style1 {
+        padding: 27px 15px 32px;
+        margin-top: -199px;
+    }
+    .about-section .section-main-title h1 {
+        line-height: 30px;
+    }
+    .mission-section.style-two .section-main-title h1 {
+        line-height: 36px;
+    }
+    .mission-icon.tow {
+        margin-right: 10px;
+    }
+    p.mission-desc {
+        font-size: 13px;
+    }
+    .about-left {
+        margin-bottom: 30px;
+    }
+    .about-thumb img {
+        width: 100%;
+    }
+    .mission-thumb2 {
+        margin-left: 0;
+    }
+    .mission-icon {
+        float: inherit;
+        margin-bottom: 0;
+    }
+    .misson-content {
+        padding: 0 0px 0;
+    }
+    .mission-thumb2 img {
+        width: 100%;
+    }
+    .volunteer-follow-left {
+        margin-top: 30px;
+    }
+    .volunteer-btn {
+        text-align: left;
+        margin-right: 0;
+    }
+    .volunteer-btn a {
+        margin-top: 30px;
+    }
+    h3.title {
+        font-size: 18px;
+    }
+    .volunteer-title h2 {
+        font-size: 25px;
+    }
+    /* campaigns area */
+    .campaigns-left {
+        margin-bottom: 30px;
+    }
+    .campaigns-thumb img {
+        width: 100%;
+    }
+    .campaigns-right {
+        margin-bottom: 30px;
+    }
+    .donations-detials-title h2 a {
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .event-thumb {
+        margin-bottom: 30px;
+    }
+    .donation-list ul li {
+        font-size: 11px;
+    }
+    .widget-recent-post.d-flex {
+        display: inherit !important;
+    }
+    .rpost-title {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .rpost-content h4 a {
+        font-size: 17px;
+    }
+    .row.donate_upper {
+        padding: 50px 0px 45px;
+    }
+    .contact-form-box {
+        padding: 53px 19px 32px;
+    }
+    .blog-contents.style .blog-title h3 a {
+        font-size: 16px;
+    }
+    .blog-details-main {
+        padding: 0;
+    }
+    .widget-tags a {
+        padding: 8px 8px;
+        font-size: 14px;
+    }
+    .blog-details-content h2 {
+        font-size: 25px;
+    }
+    .blog-details-author-thumb {
+        float: inherit;
+        margin-bottom: 20px;
+    }
+    .blog-details-comment-thumb {
+        float: inherit;
+        margin-bottom: 20px;
+    }
+    .contact-left {
+        margin-left: 0;
+    }
+}
