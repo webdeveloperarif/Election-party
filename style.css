@@ -1,0 +1,4954 @@
+/*===============================================
+Template Name: elecson - Transport & Logistics HTML5 Template
+Author:  https://themeforest.net/user/dreamit-solution
+Description: Description
+Version: 1.0.0
+Text Domain: elecson
+Tags:   delivery company, grid, logistics, moving, moving company, shipping, courier, shipping company, storage, transport, transport company, warehouse.
+================================================*/
+
+/*TABLE OF CONTENTS*/
+
+/*=====================
+01. elecson Header Top Menu Area Css
+02. elecson Nav Menu Area Css 
+03. elecson hero Area Css
+04. elecson contact-Area Css
+05. elecson service-Area Css
+06. elecson Section Title Css
+07. elecson About Area Css
+08. elecson testimonial Area Css
+09. elecson event Area Css
+10. elecson download- Area Css
+11. elecson mission- Area Css
+12. elecson dollar- Area Css
+13. elecson team Area Css
+14. elecson blog Area Css
+15. elecson counter Area Css
+16. elecson footer-Area Css
+17. elecson copyright-Area Css
+
+=======================*/
+
+/*=====================================
+<-- start-elecson topbar Area Css -->
+=======================================*/
+
+.topbar-area {
+    background: #05294D;
+    padding: 9px 0 12px;
+}
+
+.topbar-info ul {
+    padding: 0;
+    margin: 0;
+}
+
+.topbar-info ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 30px;
+    color: #DFDFE7;
+    font-weight: 400;
+    font-family: "Arimo";
+    padding-right: 38px;
+}
+
+.topbar-info ul li a {
+    display: inline-block;
+    color: #DFDFE7;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Arimo";
+}
+
+.topbar-info ul li a i {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 4px;
+}
+
+.topbar-list {
+    text-align: right;
+    margin-right: -76px;
+}
+
+.topbar-list ul {
+    padding: 0;
+    margin: 0;
+}
+
+.topbar-list ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 30px;
+    color: #DFDFE7;
+    font-weight: 400;
+    font-family: "Arimo";
+    padding-left: 26px;
+}
+
+.topbar-social-icon {
+    text-align: right;
+}
+
+.topbar-social-icon ul {
+    padding: 0;
+    margin: 0;
+}
+
+.topbar-social-icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.topbar-social-icon ul li a i {
+    display: inline-block;
+    color: #DFDFE7;
+    font-size: 15px;
+    padding-left: 10px;
+    transition: .5s;
+}
+
+.topbar-social-icon ul li a i:hover {
+    color: #E11143;
+}
+
+/*=====================================
+<-- end-elecson topbar Area Css -->
+=======================================*/
+
+/*=====================================
+<--  elecson Nav Menu Area Css -->
+=======================================*/
+
+.elecson_nav_manu {
+    padding: 0 100px;
+}
+
+.sticky {
+    left: 0;
+    margin: auto;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    background: #E11143 !important;
+    z-index: 500;
+    padding: 0 100px;
+    transition: .5s !important;
+    z-index: 500;
+    -webkit-animation: 300ms running fadeInDown;
+    animation: 500ms running fadeInUp;
+    animation-name: slideInDown;
+}
+
+.sticky .logo {
+    margin-top: 0;
+}
+
+.sticky.elecson_nav_manu:before {
+    display: none;
+}
+
+/* elecson Menu Css*/
+
+nav.elecson_menu {
+    align-items: center;
+    display: inline-flex;
+    float: right;
+    padding: 0;
+}
+
+.elecson_menu ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.elecson_menu>ul>li {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.elecson_menu>ul>li>a {
+    display: block;
+    margin: 34px 10px 34px;
+    -webkit-transition: .5s;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Arimo";
+    color: #062A4E;
+}
+
+nav.elecson_menu ul li a i {
+    display: inline-block;
+    font-size: 11px;
+    padding-left: 6px;
+}
+
+nav.elecson_menu span {
+    font-size: 13px;
+    padding-left: 6px;
+    font-family: FontAwesome;
+    opacity: .5;
+}
+
+.elecson_menu>ul>li>a:hover {
+    color: #CE1446;
+}
+
+.sticky .elecson_menu>ul>li>a:hover {
+    color: #fff;
+}
+
+.elecson-search {
+    margin-left: 30px;
+}
+
+.elecson-search a i {
+    display: inline-block;
+    color: #05294D;
+    font-size: 20px;
+    background: #EDEEF0;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.elecson-search a i:after {
+    position: absolute;
+    content: "0";
+    right: 0;
+    top: -3px;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 12px;
+    background: #00264A;
+    z-index: -1;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*** Sub Menu Style ***/
+
+.elecson_menu ul .sub-menu {
+    position: absolute;
+    left: 0;
+    top: 150%;
+    width: 217px;
+    text-align: left;
+    background: #fff;
+    margin: 0;
+    z-index: 1;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+    border-bottom: 3px solid #E11143;
+    border-top: 3px solid #E11143;
+}
+
+.elecson_menu ul li:hover>.sub-menu {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+    z-index: 9999;
+}
+
+.elecson_menu ul .sub-menu li {
+    position: relative;
+}
+
+.elecson_menu ul .sub-menu li a {
+    display: block;
+    padding: 12px 20px;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    -webkit-transition: .1s;
+    visibility: inherit !important;
+    color: #211e3b !important;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.elecson_menu ul .sub-menu li:hover>a,
+.elecson_menu ul .sub-menu .sub-menu li:hover>a,
+.elecson_menu ul .sub-menu .sub-menu .sub-menu li:hover>a,
+.elecson_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover>a {
+    background: #E11143;
+    color: #fff !important;
+}
+
+/* sub menu 2 */
+
+.elecson_menu ul .sub-menu .sub-menu {
+    left: 100%;
+    top: 130%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+}
+
+.elecson_menu ul .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    top: 0%;
+}
+
+/* sub menu 3 */
+
+.elecson_menu ul .sub-menu .sub-menu li {
+    position: relative;
+}
+
+.elecson_menu ul .sub-menu .sub-menu .sub-menu {
+    right: 100%;
+    left: auto;
+    top: 130%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+}
+
+.elecson_menu ul .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    top: 0%;
+}
+
+/* sub menu 4 */
+
+.elecson_menu ul .sub-menu .sub-menu .sub-menu li {
+    position: relative;
+}
+
+.elecson_menu ul .sub-menu .sub-menu .sub-menu .sub-menu {}
+
+.elecson_menu ul .sub-menu .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    top: 0%;
+}
+
+.elecson_menu li a:hover:before {
+    width: 100%;
+}
+
+.elecson_nav_manu.sticky .logo_img {
+    display: none;
+}
+
+.main_sticky {
+    display: none;
+}
+
+.elecson_nav_manu.sticky .main_sticky {
+    display: inherit;
+}
+
+.sticky .elecson_menu li a {
+    color: #fff;
+}
+
+.elecson_nav_manu.sticky a.dtbtn {
+    color: #fff;
+    background: #F16722;
+    border: 2px solid #F16722;
+}
+
+.elecson_nav_manu.sticky a.dtbtn:hover {
+    color: #43baff;
+}
+
+.mobile-menu.mean-container {
+    overflow: hidden;
+}
+
+.elecson-search-btn {
+    display: inline-block;
+}
+
+.elecson-btn {
+    margin-left: 38px;
+    padding: 8px 0 0;
+}
+
+.elecson-btn a {
+    display: inline-block;
+    overflow: hidden;
+    background: #E11143;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    z-index: 1;
+    position: relative;
+    font-size: 17px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    padding: 17px 28px 17px;
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+}
+
+.elecson-btn a::before {
+    content: "";
+    background: #012549;
+    height: 0;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    transition: .5s;
+    z-index: -1;
+}
+
+.elecson-btn a::after {
+    content: "";
+    background: #012549;
+    height: 0;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    transition: .5s;
+    z-index: -1;
+}
+
+.elecson-btn a i {
+    display: inline-block;
+    font-size: 21px;
+    position: relative;
+    top: 3px;
+    margin-left: 3px;
+}
+
+.sticky .elecson-btn a::before {
+    background: #012549;
+    border-radius: 0;
+}
+
+.sticky .elecson-btn a {
+    color: #E11143;
+    background: #fff;
+}
+
+.sticky .elecson-btn a:hover {
+    color: #fff;
+}
+
+.style-two .elecson-btn a {
+    color: #CD1345;
+    border: 1px solid #fff;
+}
+
+.style-two .elecson-btn a {
+    background: none;
+    color: #fff;
+}
+
+.style-two .elecson-btn a:hover {
+    color: #CD1345;
+}
+
+.style-two .elecson-btn a::before {
+    border-radius: 0;
+}
+
+.elecson-btn a:hover::before {
+    height: 100%;
+    right: 0;
+    left: auto;
+}
+
+.elecson-btn a:hover::after {
+    height: 100%;
+    left: 0;
+    right: auto;
+}
+
+/*=====================================
+<--  start elecson hero Area Css -->
+=======================================*/
+
+.hero-area {
+    height: 850px;
+    background: url(assets/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero-contant h5 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #e01142;
+    font-weight: 600;
+    font-family: "Work Sans";
+    margin-bottom: 20px;
+}
+
+.hero-contant h1 {
+    font-size: 55px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+    margin: 0;
+}
+
+.hero-contant span {
+    color: #E01042;
+}
+
+.hero-contant p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Arimo";
+    padding: 21px 0 41px;
+    width: 87%;
+    margin: 0;
+}
+
+.hero-area .elecson-btn {
+    margin-left: 0;
+    display: inline-block;
+}
+
+.hero-area .elecson-btn a {
+    padding: 16px 27px 16px;
+}
+
+.hero-video-icon {
+    display: inline-block;
+}
+
+.hero-video-icon a {
+    display: inline-block;
+    text-decoration: none;
+    background: #fff;
+    color: #e01142;
+    font-weight: 500;
+    font-family: "Work Sans";
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 23px;
+    margin-left: 22px;
+}
+
+.hero-area .elecson-btn a::before {
+    background: #fff;
+}
+
+.hero-area .elecson-btn a:after {
+    background: #fff;
+}
+
+.hero-area .elecson-btn a:hover {
+    color: #E11143;
+}
+
+.hero-shape {
+    position: absolute;
+    left: 7%;
+    top: 12%;
+}
+
+.hero-shape1 {
+    position: absolute;
+    left: 44%;
+    top: 16%;
+}
+
+.hero-shape2 {
+    position: absolute;
+    top: 63%;
+    left: 6%;
+}
+
+.hero-shape img {
+    animation: dance 3s alternate infinite;
+    -webkit-animation: dance 2s alternate infinite;
+    animation: dance 3s alternate infinite;
+}
+
+.hero-shape2 img {
+    animation: dance 3s alternate infinite;
+    -webkit-animation: dance 2s alternate infinite;
+    animation: dance 3s alternate infinite;
+}
+
+.hero-shape3 {
+    position: absolute;
+    right: 50%;
+    top: 77%;
+}
+
+.hero-shape1 img {
+    animation: dance 3s alternate infinite;
+    -webkit-animation: dance 2s alternate infinite;
+    animation: dance 3s alternate infinite;
+}
+
+.hero-shape4 {
+    position: absolute;
+    right: -1%;
+    top: -3%;
+}
+
+.hero-shape5 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hero-shape6 {
+    position: absolute;
+    top: 12%;
+    left: -2%;
+}
+
+.hero-shape7 {
+    position: absolute;
+    left: -3%;
+    top: 0;
+}
+
+.hero-shape8 {
+    position: absolute;
+    right: -3%;
+    top: 7%;
+}
+
+.hero-shape9 {
+    position: absolute;
+    right: -2%;
+    top: 15%;
+}
+
+/*=====================================
+<--  end elecson hero Area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson section-title Area Css -->
+=======================================*/
+
+.mission-area .section-title.text-center {
+    margin-bottom: 73px;
+}
+
+.section-title.text-left {
+    margin-bottom: 60px;
+}
+
+.dollar-area .section-title.text-left {
+    margin-bottom: 31px;
+}
+
+.about-area .section-title.text-left {
+    margin-bottom: 19px;
+}
+
+.section-sub-title h5 {
+    font-size: 17px;
+    color: #e01142;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin-bottom: 18px;
+}
+
+.section-main-title h1 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 50px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.section-title-descr p {
+    font-size: 17px;
+    color: #6f7785;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Arimo";
+    width: 49%;
+    margin: auto;
+    padding: 11px 0 0;
+}
+
+.team-area .section-title-descr p {
+    width: 100%;
+    padding: 0;
+    margin-top: -20px;
+}
+
+.section-title-descr2 p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #6f7785;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin: 0;
+    width: 93%;
+    padding: 18px 0 0;
+}
+
+.section-title-descr2 p {
+    width: 87%;
+    padding: 10px 0 0;
+    font-size: 17px;
+    line-height: 30px;
+    color: #6f7785;
+    font-weight: 400;
+    font-family: "Arimo";
+}
+
+.dollar-area .section-main-title h1 {
+    color: #fff;
+}
+
+.section-sub-title h4 {
+    font-size: 18px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin-bottom: 13px;
+}
+
+.become-volunteer .section-sub-title h4 {
+    color: #fff;
+}
+
+.mission-section.style-two .section-sub-title h4 {
+    color: #fff;
+}
+
+.mission-section.style-two .section-main-title h1 {
+    color: #fff;
+    line-height: 52px;
+}
+
+.section-title {
+    margin-bottom: 36px;
+}
+
+.about-section .section-description p {
+    padding: 16px 0 0;
+}
+
+p.section-description {
+    width: 68%;
+    margin: auto;
+    padding: 13px 0 0;
+}
+
+.become-volunteer .section-main-title h1 {
+    color: #fff;
+}
+
+/*=====================================
+<--  end elecson section-title Area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson service Area Css -->
+=======================================*/
+
+.service-area {
+    padding: 0 0 25px;
+    background: #F6F6F6;
+}
+
+.service-single-box {
+    border-radius: 5px;
+    background: #fff;
+    padding: 42px 29px 15px;
+    transition: .5s;
+    margin-bottom: 30px;
+    position: relative;
+    top: -62px;
+    z-index: 1;
+}
+
+.service-single-box::before {
+    content: "";
+    background: #E11143;
+    height: 50%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px 5px 0 0;
+}
+
+.service-single-box:after {
+    content: "";
+    background: #E11143;
+    height: 50%;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 0 0 5px 5px;
+}
+
+.service-icon img {
+    transition: .5s;
+}
+
+h3.service-title {
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin: 0;
+    padding: 21px 0 36px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+h3.service-title::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 40px;
+    background: #CCCCCC;
+    bottom: 17px;
+    transition: .5s;
+}
+
+p.service-descr {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6f7785;
+    font-weight: 400;
+    font-family: "Arimo";
+    transition: .5s;
+}
+
+.service-area .elecson-btn a {
+    padding: 17px 35px 17px;
+}
+
+.service-area .elecson-btn a::before {
+    background: #fff;
+}
+
+.service-area .elecson-btn a::after {
+    background: #fff;
+}
+
+.service-area .elecson-btn a:hover {
+    color: #E11143;
+}
+
+.service-single-box:hover .service-icon img {
+    filter: brightness(0) invert(1);
+}
+
+.service-single-box:hover h3.service-title {
+    color: #fff;
+}
+
+.service-single-box:hover h3.service-title::before {
+    background: #EF88A0;
+}
+
+.service-single-box:hover p.service-descr {
+    color: #fff;
+}
+
+.service-single-box:hover::before {
+    width: 100%;
+    right: 0;
+    left: auto;
+}
+
+.service-single-box:hover:after {
+    width: 100%;
+    right: 0;
+    left: auto;
+}
+
+/*=====================================
+<--  end elecson service Area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson about Area Css -->
+=======================================*/
+
+.about-area {
+    padding: 0 0 115px;
+    background: #F6F6F6;
+}
+
+.about-thumb {
+    margin-left: -189px;
+}
+
+.about-content {
+    margin-bottom: 42px;
+}
+
+p.about-descr {
+    font-size: 20px;
+    line-height: 30px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin: 0;
+    padding: 0 0 66px;
+    width: 96%;
+    padding-left: 14px;
+    position: relative;
+    z-index: 1;
+}
+
+p.about-descr::before {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 2px;
+    background: #E11143;
+    left: 0;
+    top: 7px;
+}
+
+p.about-descr:after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 90%;
+    background: #D1D1D1;
+    left: 0;
+    bottom: 32px;
+}
+
+h3.about-title {
+    font-size: 22px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Arimo";
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+p.about-text {
+    font-size: 16px;
+    color: #6f7785;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin: 0;
+}
+
+.about-area .elecson-btn {
+    margin-left: 0;
+}
+
+.about-area .elecson-btn a {
+    padding: 16px 28px 16px;
+}
+
+.about-sine {
+    margin-left: -66px;
+}
+
+/*=====================================
+<--  end elecson about Area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson event Area Css -->
+=======================================*/
+
+.event-area {
+    padding: 113px 0 88px;
+}
+
+.portfolio_nav {
+    text-align: right;
+}
+
+.portfolio_menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 18px;
+    color: #012549;
+    transition: .5s;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 500;
+    font-family: "Work Sans";
+    cursor: pointer;
+}
+
+.single-event-box {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.event-thumb img {
+    width: 100%;
+}
+
+.event-content {
+    position: absolute;
+    bottom: 32px;
+    padding: 0 30px 0;
+    transition: .5s;
+}
+
+h3.event-title {
+    margin: 0;
+}
+
+h3.event-title a {
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Work Sans";
+    margin: 0;
+    margin-bottom: 22px;
+    transition: .5s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+span.event-time {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Arimo";
+}
+
+span.event-time i {
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 9px;
+    color: #E11143;
+}
+
+.event-date {
+    position: absolute;
+    top: 0;
+    left: 31px;
+    text-align: center;
+    background: #E11143;
+    height: 60px;
+    width: 55px;
+    border-radius: 5px;
+    padding: 6px 0 0;
+}
+
+.event-date h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin: 0;
+}
+
+.event-area .elecson-btn a::before {
+    background: #DA1142;
+}
+
+.event-area .elecson-btn a:after {
+    background: #DA1142;
+}
+
+.single-event-box:hover h3.event-title a {
+    color: #E11143;
+}
+
+/*=====================================
+<--  end elecson event Area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson testimonial Area Css -->
+=======================================*/
+
+.testimonial-area {
+    background: url(assets/images/testi-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-thumb {
+    margin-left: 31px;
+}
+
+.testi-content p {
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    padding: 64px 0 27px;
+    width: 95%;
+}
+
+.testi-thumb.tow {
+    margin-right: 27px;
+}
+
+h3.testi-title {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+p.testi-text {
+    font-size: 17px;
+    color: #E8EAED;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin: 0;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 46px;
+    position: relative;
+    left: -45%;
+}
+
+.owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #6E7786;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+.owl-dot.active {
+    background: #d0204f;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-dot.active::before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    border: 1px solid #E11143;
+    border-radius: 50%;
+    left: -4px;
+    top: -4px;
+}
+
+.testi-shape {
+    position: absolute;
+    left: 6%;
+    top: 18%;
+}
+
+.testi-shape1 {
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+}
+
+.testi-shape2 {
+    position: absolute;
+    left: 34%;
+    bottom: 32%;
+}
+
+.testi-shap3 {
+    position: absolute;
+    left: 38%;
+    top: 25%;
+}
+
+.testi-shape4 {
+    position: absolute;
+    left: 42%;
+    bottom: 7%;
+    z-index: -1;
+}
+
+/*=====================================
+<--  end elecson testimonial Area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson mission-area Css -->
+=======================================*/
+
+.mission-area {
+    padding: 114px 0 16px;
+}
+
+.mission-single-box {
+    margin-bottom: 95px;
+}
+
+.mission-icon {
+    position: relative;
+    z-index: 1;
+    margin-right: 40px;
+    margin-top: 11px;
+}
+
+.mission-icon::before {
+    position: absolute;
+    content: "";
+    height: 65px;
+    width: 65px;
+    border: 1px solid #E2E6EA;
+    border-radius: 50%;
+    left: -15px;
+    top: -15px;
+}
+
+.mission-icon:after {
+    position: absolute;
+    content: "";
+    height: 65px;
+    width: 65px;
+    background: #E11143;
+    left: -15px;
+    top: -15px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.mission-icon img {
+    transition: .5s;
+    filter: brightness(1) invert(0);
+}
+
+h3.mission-title {
+    font-size: 22px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    margin: 0;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+h3.mission-title::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 25px;
+    background: #E11143;
+    bottom: -18px;
+}
+
+p.mission-title {
+    font-size: 16px;
+    line-height: 27px;
+    color: #6f7785;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin: 0;
+    width: 83%;
+}
+
+.mission-single-box:hover h3.mission-title {
+    color: #E11143;
+}
+
+.mission-single-box:hover .mission-icon:after {
+    transform: scale(1);
+}
+
+.mission-single-box:hover .mission-icon img {
+    filter: brightness(0) invert(1);
+}
+
+.mission-single-box:hover .mission-icon::before {
+    display: none;
+}
+
+/*=====================================
+<--  start elecson-mission-area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson team-area Css -->
+=======================================*/
+
+.team-area {
+    background: #F6F6F6;
+    padding: 113px 0 84px;
+}
+
+.team-single-box {
+    margin-bottom: 30px;
+}
+
+.team-thumb {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.team-thumb::before {
+    position: absolute;
+    content: "";
+    height: 92%;
+    width: 91%;
+    background: #E11143;
+    left: 14px;
+    top: 15px;
+    border-radius: 5px;
+    transform: perspective(500px)rotateX(90deg);
+    transition: .5s;
+    opacity: 0;
+}
+
+.team-thumb:hover::before {
+    transform: perspective(500px)rotateX(0deg);
+    opacity: 0.7;
+}
+
+.team-thumb img {
+    width: 100%;
+}
+
+.team-content {
+    position: absolute;
+    bottom: 58px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.team-social-icon ul {
+    padding: 0;
+    margin: 0;
+}
+
+.team-social-icon ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 2px;
+}
+
+.team-social-icon ul li a i {
+    display: inline-block;
+    background: #fff;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #032548;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+h3.team-title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 4px;
+}
+
+p.team-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Arimo";
+    text-align: center;
+    margin: 0;
+}
+
+.team-social-icon ul li a i:hover {
+    color: #E11143;
+}
+
+.team-single-box:hover .team-content {
+    transform: scale(1);
+}
+
+/*=====================================
+<--  end elecson team-area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson dollar-area Css -->
+=======================================*/
+
+.dollar-area {
+    background: url(assets/images/dollar-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 114px 0 109px;
+}
+
+.dollar-right {
+    position: relative;
+    left: 15%;
+}
+
+.dollar-list {
+    padding: 0 0 50px;
+}
+
+.dollar-list ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dollar-list ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.dollar-list ul li {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #6F7785;
+    padding: 12px 24px 12px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin-right: 14px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.dollar-list ul li::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    z-index: -1;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.dollar-list ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 6px 0;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    transition: .5s;
+}
+
+.dollar-area .elecson-btn {
+    margin-left: 0;
+}
+
+.dollar-area .elecson-btn a {
+    padding: 16px 22px 16px;
+}
+
+.dollar-area .elecson-btn a::before {
+    background: #fff;
+}
+
+.dollar-area .elecson-btn a:after {
+    background: #fff;
+}
+
+.dollar-area .elecson-btn a:hover {
+    color: #E11143;
+}
+
+.dollar-list ul li:hover::before {
+    transform: scale(1);
+}
+
+.dollar-list ul li:hover {
+    color: #E11143;
+}
+
+.dollar-list ul li a:hover {
+    color: #E11143;
+}
+
+/*=====================================
+<--  end elecson dollar-area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson blog-area Css -->
+=======================================*/
+
+.blog-area {
+    background: url(assets/images/blog-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 113px 0 88px;
+}
+
+.blog-single-box {
+    margin-bottom: 30px;
+}
+
+.blog-thumb {
+    overflow: hidden;
+}
+
+.blog-thumb img {
+    width: 100%;
+    transition: .5s;
+    transform: scale(1);
+}
+
+.blog-content {
+    padding: 27px 33px 36px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 3px 30px rgba(189, 189, 189, 0.26));
+    background-color: #ffffff;
+}
+
+.blog-meta ul {
+    padding: 0;
+    margin: 0;
+}
+
+.blog-meta ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #6f7785;
+    font-weight: 400;
+    font-family: "Arimo";
+    padding-right: 34px;
+    transition: .5s;
+}
+
+li.list {
+    position: relative;
+    z-index: 1;
+}
+
+li.list::before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 6px;
+    background: #707682;
+    left: -16px;
+    border-radius: 50%;
+    top: 12px;
+    transition: .5s;
+}
+
+h3.blog-title {
+    margin: 0;
+}
+
+h3.blog-title a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 0 32px;
+    transition: .5s;
+    font-size: 22px;
+    line-height: 32px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.blog-btn a {
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 15px;
+    line-height: 32px;
+    color: #e01142;
+    font-weight: 400;
+    font-family: "Arimo";
+    text-align: center;
+    border: 1px solid #616161;
+    padding: 3px 19px 6px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-btn a::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #E11143;
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.blog-btn a i {
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+    top: 6px;
+    margin-left: 0;
+    transition: .5s;
+}
+
+.blog-single-box:hover .blog-content::before {
+    background: url(assets/images/blog-shape1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.blog-single-box:hover h3.blog-title a {
+    color: #E11143;
+}
+
+.blog-single-box:hover .blog-thumb img {
+    transform: scale(1.1);
+}
+
+.blog-btn a:hover::before {
+    transform: scale(1);
+}
+
+.blog-btn a:hover {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.blog-btn a:hover i {
+    color: #fff;
+}
+
+.blog-single-box:hover .blog-meta ul li {
+    color: #E11143;
+}
+
+.blog-single-box:hover li.list::before {
+    background: #E11143;
+}
+
+/*=====================================
+<--  end elecson blog-area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson download-area Css -->
+=======================================*/
+
+.download-area {
+    background: url(assets/images/download-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 48px 0 48px;
+}
+
+.download-single-box {
+    margin-left: 87px;
+}
+
+.download-icon {
+    margin-right: 20px;
+}
+
+h3.download-title {
+    font-size: 35px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Work Sans";
+    margin: 0;
+}
+
+.download-area .elecson-btn {
+    margin-left: 0;
+    margin-top: 9px;
+}
+
+.download-area .elecson-btn a {
+    background: #fff;
+    color: #E11143;
+}
+
+.download-area .elecson-btn a:hover {
+    color: #fff;
+}
+
+/*=====================================
+<--  end elecson download-area Css -->
+=======================================*/
+
+/*=====================================
+<--  start elecson footer-area Css -->
+=======================================*/
+
+.footer-area {
+    background: url(assets/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-widget-text p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #DBE0E5;
+    font-weight: 400;
+    font-family: "Arimo";
+    padding: 28px 0 40px;
+    margin: 0;
+}
+
+.widget-title h2 {
+    font-size: 20px;
+    color: #fefefe;
+    font-weight: 600;
+    font-family: "Work Sans";
+    margin-bottom: 47px;
+}
+
+.footer-widget-social a i {
+    display: inline-block;
+    color: #DF1141;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 5px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.footer-widget-social a i:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #E11143;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    z-index: -1;
+    transition: .5s;
+    transform: scale(0);
+}
+
+.footer-widget.left ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-widget.left ul li {
+    list-style: none;
+}
+
+.footer-widget.left ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 36px;
+    color: #DBE0E5;
+    font-weight: 500;
+    font-family: "Arimo";
+    padding-left: 15px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.footer-widget.left ul li a::before {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 4px;
+    background: #DADFE3;
+    left: 0;
+    top: 18px;
+    transition: .5s;
+}
+
+.footer-widget.right ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-widget.right ul li {
+    list-style: none;
+}
+
+.footer-widget.right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 36px;
+    color: #DBE0E5;
+    font-weight: 500;
+    font-family: "Arimo";
+    padding-left: 15px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.footer-widget.right ul li a::before {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 4px;
+    background: #DADFE3;
+    left: 0;
+    top: 18px;
+    transition: .5s;
+}
+
+p.footer-Newsletter-text {
+    font-size: 16px;
+    line-height: 27px;
+    color: #DBE0E5;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin: 0;
+    padding: 0 0 24px;
+}
+
+.form-field input {
+    height: 55px;
+    outline: 0;
+    border: none;
+    width: 94%;
+    font-size: 16px;
+    color: #616161;
+    font-weight: 400;
+    font-family: "Arimo";
+    padding: 0 0 0 23px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.form-field2 button {
+    outline: 0;
+    border: none;
+    width: 94%;
+    border-radius: 5px;
+    height: 55px;
+    background: #E01142;
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Arimo";
+}
+
+.footer-copyright-text {
+    text-align: center;
+    border-top: 1px solid #1C3A58;
+    padding: 34px 0 0;
+    margin: 119px 0 0;
+}
+
+.footer-copyright-text {
+    text-align: center;
+}
+
+.footer-copyright-text p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Arimo";
+    text-align: center;
+    margin: 0;
+}
+
+.footer-widget-social a i:hover:after {
+    transform: scale(1);
+}
+
+.footer-widget-social a i:hover {
+    color: #fff;
+}
+
+.footer-widget.left ul li a:hover::before {
+    background: #E11143;
+}
+
+.footer-widget.right ul li a:hover::before {
+    background: #E11143;
+}
+
+.footer-widget.left ul li a:hover {
+    color: #E11143;
+}
+
+.footer-widget.right ul li a:hover {
+    color: #E11143;
+}
+
+.footer-shape {
+    position: absolute;
+    bottom: 0;
+    left: 92%;
+}
+
+.footer-shape2 {
+    position: absolute;
+    bottom: 0;
+    left: 94%;
+}
+
+/*=====================================
+<--  end elecson footer-area Css -->
+=======================================*/
+
+/*=====================================
+<--  end elecson copyright-area Css -->
+=======================================*/
+
+.breadcumb-area {
+    background: url(assets/images/bridcumb_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 418px;
+    position: relative;
+}
+
+.breacumb-content {
+    position: relative;
+    text-align: center;
+}
+
+.breadcumb-title h1 {
+    margin-bottom: 18px;
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+}
+
+.breadcumb-menu ul li {
+    display: inline-block;
+}
+
+.breadcumb-menu ul li a {
+    transition: .5s;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.breadcumb-menu ul li a i {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 10px 0;
+}
+
+.breadcumb-menu ul li p {
+    color: #ffffff;
+}
+
+.breadcumb-menu ul li p i {
+    margin: 0 10px 0;
+}
+
+.breadcumb-menu ul li span {
+    color: #E11143;
+}
+
+/*================================
+ <--elecson Campaigns Section Css-->
+==================================*/
+
+.campaigns-section {
+    padding: 110px 0 110px;
+}
+
+.campaigns-section.style-two {
+    background: #F4F4F4;
+}
+
+.campaigns-date {
+    margin-top: 13px;
+}
+
+.campaigns-date span {
+    font-size: 15px;
+    color: #e01142;
+    font-weight: 400;
+    font-family: "Arimo";
+}
+
+.campaigns-date span i {
+    margin-right: 10px;
+}
+
+p.campaigns-decs {
+    width: 85%;
+    border-top: 1px solid #9d878729;
+    margin-top: 22px;
+    padding-top: 22px;
+}
+
+.campaigns-btn {
+    margin-top: 25px;
+}
+
+.campaigns-btn a {
+    display: inline-block;
+    font-size: 16px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+    border-bottom: 1px solid #a1898936;
+    text-decoration: none;
+}
+
+.campaigns-btn a:hover {
+    color: #E01142;
+    border-bottom: 1px solid #E01142;
+}
+
+.campaigns-btn a:hover i {
+    color: #E01142;
+}
+
+.campaigns-btn a i {
+    color: #012549;
+    font-size: 20px;
+    transform: rotate(-45deg);
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    transition: .5s;
+}
+
+/*================================
+ <--Startelecson  Volunteer  Section   Css-->
+=================================*/
+
+.volunteer-section {
+    background: url(assets/images/volunteer.jpg);
+    padding: 52px 0 51px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.volunteer-title {
+    float: left;
+}
+
+.volunteer-title h2 {
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+    position: relative;
+    z-index: 1;
+}
+
+.volunteer-btn {
+    text-align: right;
+    margin-right: 65px;
+}
+
+.volunteer-btn a {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    border: 2px solid #fff;
+    padding: 15px 33px;
+    text-decoration: none;
+}
+
+.volunteer-btn a:hover {
+    background: #ffff;
+    color: #1F85EA;
+}
+
+.volunteer-follow-left {
+    margin-left: 10px;
+}
+
+.volunteer-follow-icon {
+    float: left;
+    margin-right: 20px;
+}
+
+.volunteer-follow-icon a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #1F85EA;
+    transition: .5s;
+}
+
+.volunteer-follow-icon a i {
+    display: inline-block;
+    color: #E11143;
+}
+
+.volunteer-follow-icon a:hover {
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #fff;
+}
+
+h3.title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.volunteer-text p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin-top: 4px;
+}
+
+/*--==============================================->
+  <!--Start campaigns details area-->
+ ==================================================-*/
+
+.campaign-details-area {
+    padding: 110px 0 90px;
+}
+
+.donations-detials-title h2 a {
+    display: inline-block;
+    font-size: 34px;
+    color: #012549;
+    font-weight: 700;
+    font-family: "Work Sans";
+    padding: 22px 0 16px;
+    text-decoration: none;
+}
+
+.donation-description p {
+    width: 93%;
+}
+
+.up.donation-description p {
+    padding: 5px 24px 7px 0px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012549;
+    font-weight: 400;
+    position: relative;
+    padding-left: 45px;
+    z-index: -;
+}
+
+.up.donation-description p:before {
+    position: absolute;
+    content: "'";
+    left: 0;
+    top: 18px;
+    width: 35px;
+    height: 3px;
+    background-color: #3394f5;
+    z-index: -1;
+}
+
+.row.mt-55 {
+    padding: 38px 0 10px;
+}
+
+.event-thumb img {
+    width: 100%;
+}
+
+.donation-list {
+    margin: 28px 0 45px;
+}
+
+.donation-list ul {
+    padding: 0;
+}
+
+.donation-list ul li {
+    font-size: 17px;
+    line-height: 28px;
+    color: #012549;
+    font-weight: 400;
+    font-family: "Arimo";
+    list-style: none;
+}
+
+.donation-list ul li i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #E11143;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 10px;
+}
+
+/* leader person */
+
+.row.our-campaign {
+    margin: 0;
+}
+
+.our-campaign-title h2 {
+    font-size: 34px;
+    color: #012549;
+    font-weight: 700;
+    font-family: "Work Sans";
+    margin-bottom: 30px;
+}
+
+.leader-person {
+    background: #F4F4F4;
+    padding: 45px 0 7px;
+}
+
+.our-campaign-team {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3.our-campaign-team-title {
+    font-size: 18px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+    text-align: center;
+    margin-top: 15px;
+}
+
+.our-campaign-team-content p {
+    font-size: 15px;
+    color: #6f7785;
+    font-weight: 400;
+    font-family: "Arimo";
+    text-align: center;
+}
+
+/* campaigns btn */
+
+.campaigns-button {
+    padding: 50px 0 20px;
+}
+
+.campaigns-button a {
+    display: inline-block;
+    background: #DF1141;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    padding: 16px 34px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.campaigns-button a:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    left: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.campaigns-button a:hover:before {
+    width: 80%;
+}
+
+.campaigns-button a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    right: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.campaigns-button a:hover:after {
+    width: 80%;
+}
+
+/*event items*/
+
+.event-details-items {
+    background: url(assets/images/resource/event_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 39px 40px 40px;
+    border-top: 5px solid #E11143;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+/*event title*/
+
+.event-title2 h4 {
+    color: #fff;
+    position: relative;
+    padding: 0 0 18px 40px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.event-title2 h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 14px;
+    width: 30px;
+    height: 2px;
+    background: #E01142;
+}
+
+/*event text*/
+
+.event-text2 {
+    padding: 20px 0 5px;
+}
+
+.event-text2 p {
+    font-size: 15px;
+    margin-bottom: 2px;
+    color: #D1D2D4;
+}
+
+.event-text2 p i {
+    font-size: 15px;
+    color: #E01142;
+    padding-right: 8px;
+}
+
+.event-text2 p {
+    font-size: 15px;
+    margin-bottom: 2px;
+    color: #D1D2D4;
+}
+
+.event-text2 p span {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+
+/* widget items */
+
+.widget-items {
+    background: #F4F4F4;
+    padding: 35px 40px 11px 40px;
+}
+
+.categories-title h4 {
+    font-size: 24px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    border-bottom: 2px solid rgba(27, 52, 52, 0.10196078431372549);
+    padding-bottom: 14px;
+    margin-bottom: 30px;
+}
+
+/*recent post*/
+
+.widget-recent-post {
+    margin-bottom: 29px;
+    border-bottom: 1px solid rgba(27, 52, 52, 0.10196078431372549);
+    padding: 0 0 25px;
+}
+
+.widget-recent-post.upper {
+    border: 0;
+    padding: 0;
+}
+
+/* rpost title*/
+
+.rpost-title {
+    padding-left: 20px;
+}
+
+.rpost-title h4 {
+    margin-top: 0;
+}
+
+.rpost-content h4 a {
+    display: inline-block;
+    transition: .5s;
+    font-size: 17px;
+    line-height: 24px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+    text-decoration: none;
+}
+
+.rpost-content h4 a:hover {
+    color: #e01142;
+}
+
+.rpost-title span {
+    font-size: 14px;
+    color: #e01142;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.rpost-title span i {
+    margin-right: 5px;
+}
+
+/*================================
+ <--Start elecson  About Section   Css-->
+=================================*/
+
+.about-section {
+    padding: 110px 0 105px;
+}
+
+.about-btn {
+    margin-top: 45px;
+}
+
+.about-btn a {
+    display: inline-block;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    background: #E11143;
+    padding: 15px 35px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.about-btn a:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    left: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.about-btn a:hover:before {
+    width: 80%;
+}
+
+.about-btn a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    right: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.about-btn a:hover:after {
+    width: 80%;
+}
+
+.about-section .about-thumb {
+    margin-left: 0;
+}
+
+/*================================
+ <--Startelecson  Mission Section Style Two Css-->
+=================================*/
+
+.mission-section.style-two {
+    background: url(assets/images/resource/mission_bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 110px 0 160px;
+}
+
+.mission-single-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10196078431372549);
+    margin-bottom: 30px;
+    padding-bottom: 11px;
+}
+
+.mission-single-item:last-child {
+    border: none;
+}
+
+.mission-icon.tow {
+    float: left;
+}
+
+.mission-icon.tow {
+    position: inherit;
+    right: 0;
+    opacity: 1;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.misson-content {
+    padding: 0 98px 0;
+}
+
+h2.mission-title {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+p.mission-desc {
+    font-size: 16px;
+    line-height: 26px;
+    color: #9ca5b5;
+    font-weight: 400;
+}
+
+.mission-thumb2 {
+    position: relative;
+    margin-left: 35px;
+}
+
+.video-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    padding-top: 8px;
+}
+
+.video-icon a i {
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #074883;
+    text-align: center;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+}
+
+@-webkit-keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0)
+    }
+}
+
+@keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0)
+    }
+}
+
+.mission-section.style-two .mission-icon::before {
+    border: transparent;
+}
+
+/*================================
+ <--Startelecson  Counter  section Style Two Area   Css-->
+=================================*/
+
+.counter-section.style-two {
+    padding: 0;
+    background: transparent;
+    margin-top: 0;
+}
+
+.counter-single-item {
+    text-align: center;
+    position: relative;
+}
+
+.row.counter-upper {
+    top: -50px;
+    background: #ffffff;
+    position: relative;
+    padding: 50px 0 55px;
+    margin: 0;
+}
+
+.counter-single-item.style1:before {
+    border: 1px solid #c5c5c5a3;
+    right: -13px;
+    top: 30px;
+    opacity: 0.200;
+    width: 1px;
+    height: 113px;
+}
+
+.counter-single-item:before {
+    position: absolute;
+    content: "";
+    right: -13px;
+    top: -26px;
+    opacity: 0.200;
+    width: 1px;
+    height: 150px;
+    background-color: #00fbf4;
+}
+
+.counter-single-item.style1.none:before {
+    display: none;
+}
+
+.counter-icon {
+    margin-bottom: 22px;
+}
+
+.counter-title2 h1 {
+    font-size: 32px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.counter-title2 span {
+    font-size: 32px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+h5.text {
+    font-size: 16px;
+    color: #6f7785;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+/*================================
+ <--Startelecson  Team  Section    Css-->
+=================================*/
+
+.team-section {
+    background: #F4F4F4;
+    padding: 320px 0 81px;
+    margin-top: -263px;
+}
+
+.team-section.style-tow {
+    margin-top: 0;
+    padding: 110px 0 84px;
+}
+
+.single-team-box.tow {
+    background: #fff;
+    text-align: center;
+    padding: 42px 0 19px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.single-team-box.tow:after {
+    position: absolute;
+    content: "";
+    left: -47px;
+    bottom: 0px;
+    width: 28%;
+    height: 1px;
+    background: #E11142;
+    transform: rotate(43deg);
+    opacity: 0;
+    transition: .5s;
+}
+
+.single-team-box.tow:hover:after {
+    bottom: 37px;
+    opacity: 1;
+}
+
+.single-team-box.tow:before {
+    position: absolute;
+    content: "";
+    left: -71px;
+    top: 95%;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-top: 50px solid #E11142;
+    border-left: 35px solid transparent;
+    border-right: 36px solid transparent;
+    transition: .5s;
+    background: radial-gradient(black, transparent);
+    transform: rotate(43deg);
+}
+
+.single-team-box.tow:hover:before {
+    left: -28px;
+}
+
+.team-thumb.tow {
+    position: relative;
+}
+
+.team-section .team-thumb:before {
+    background: none;
+}
+
+.team-thumb.tow img {
+    width: inherit;
+    border-radius: inherit;
+    padding: inherit;
+}
+
+.team-social-icon.tow {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+.team-social-icon.tow a {
+    display: inline-block;
+    color: #012549;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    line-height: 45px;
+    margin-left: 8px;
+    transition: .5s;
+}
+
+.team-social-icon.tow a:hover {
+    background: #E11142;
+    color: #fff;
+}
+
+.team-content.tow {
+    margin-top: 30px;
+}
+
+.team-content.tow::before {
+    background: none;
+}
+
+.team-content.tow:after {
+    background: none;
+}
+
+h3.team-title.tow a {
+    font-size: 24px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    text-decoration: none;
+}
+
+.team-content.tow p {
+    font-size: 16px;
+    color: #e01142;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin-top: 8px;
+}
+
+/* all hover */
+
+.single-team-box.tow:hover .team-social-icon {
+    bottom: 20px;
+    opacity: 1;
+}
+
+/*================================
+ <--elecson  donate  Section Css-->
+==================================*/
+
+.donate-section {
+    padding: 105px 0 110px;
+}
+
+.donations-thumb img {
+    width: 100%;
+}
+
+.row.donate_upper {
+    background: #012549;
+    margin: 0;
+    padding: 50px 48px 45px;
+    border-top: 5px solid #3394F5;
+}
+
+.donate-left {
+    display: inline-block;
+}
+
+.donate-right {
+    display: inline-block;
+}
+
+/*button count number*/
+
+button.tablink {
+    border: 0;
+    height: 50px;
+    width: 95px;
+    margin-right: 6px;
+    transition: .5s;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+
+button.tablink:hover {
+    background: #e01142;
+    color: #fff;
+}
+
+/*tab content*/
+
+.tabcontent {
+    background: #fff;
+    padding: 12px 22px 4px;
+    position: relative;
+    text-align: right;
+    padding-left: 100px;
+}
+
+.tabcontent:before {
+    position: absolute;
+    content: "Custom :";
+    left: 23px;
+    top: 12px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #97A6B4;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+
+.tabcontent h3 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #97A6B4;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+
+.check-content h5 {
+    padding: 10px 0px 8px;
+    font-size: 18px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+
+.dpx label {
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 16px;
+    line-height: 50px;
+    color: #012549;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+
+.option-input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all 0.15s ease-out 0s;
+    background: transparent;
+    border: 2px solid rgba(27, 52, 52, 0.10196078431372549);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.4rem;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.option-input:hover {
+    background: #9faab7;
+}
+
+.option-input:checked {
+    background: #e01142;
+}
+
+.option-input:checked::before {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    content: "";
+    position: absolute;
+    align-items: center;
+    left: -5px;
+    top: -5px;
+    border: 1px solid #e01142;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.contact-form-box {
+    border: 1px solid rgba(27, 52, 52, 0.10196078431372549);
+    margin: 0;
+    padding: 53px 60px 32px;
+}
+
+.form-title h6 {
+    font-size: 16px;
+    color: #012549;
+    font-weight: 400;
+    font-family: "Work Sans";
+    margin-bottom: 10px;
+}
+
+.up.form-box input {
+    border: 1px solid rgba(27, 52, 52, 0.10196078431372549);
+    border-radius: 0;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+.up.form-box input::placeholder {
+    font-size: 15px;
+    color: #6f7785;
+    font-family: "Arimo";
+    opacity: 1;
+}
+
+.check-cash {
+    border-top: 1px solid rgba(27, 52, 52, 0.10196078431372549);
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.check-cash span strong {
+    font-size: 18px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin-right: 10px;
+}
+
+.campaigns-button.pt-3 {
+    margin-top: 27px;
+}
+
+.campaigns-button.pt-3 button {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    padding: 13px 40px 13px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    background: #E11143;
+    color: #fff;
+}
+
+.campaigns-button.pt-3 button::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #03254B;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    z-index: -1;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.campaigns-button.pt-3 button:hover::before {
+    transform: scale(1);
+}
+
+.campaigns-button a {
+    display: inline-block;
+    background: #DF1141;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    padding: 16px 34px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 0;
+}
+
+.campaigns-button a:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    left: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.campaigns-button a:hover:before {
+    width: 80%;
+}
+
+.campaigns-button a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    right: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.campaigns-button a:hover:after {
+    width: 80%;
+}
+
+/*================================
+ <--elecson   Volunteer Section Style Two Css-->
+==================================*/
+
+.volunteer-section.style-two {
+    background: #fff;
+    padding: 110px 0 110px;
+}
+
+.volunteer-left {
+    position: relative;
+    margin-left: 30px;
+}
+
+.volunteer-list {
+    padding: 7px 0 30px;
+}
+
+.volunteer-list ul {
+    padding: 0;
+}
+
+.volunteer-list ul li {
+    font-size: 16px;
+    color: #012549;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin-bottom: 13px;
+    list-style: none;
+}
+
+.volunteer-list ul li img {
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
+
+.volunteer_btn a {
+    display: inline-block;
+    background: #DF1141;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    padding: 16px 34px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 0;
+    text-decoration: none;
+}
+
+.volunteer_btn a:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    left: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.volunteer_btn a:hover:before {
+    width: 80%;
+}
+
+.volunteer_btn a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    right: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.volunteer_btn a:hover:after {
+    width: 80%;
+}
+
+/*================================
+ <--elecson  Become Volunteer Css-->
+==================================*/
+
+.become-volunteer {
+    background: url(assets/images/resource/become_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 110px 0 160px;
+}
+
+.become-right {
+    text-align: right;
+    float: right;
+}
+
+.counter-icons {
+    float: left;
+    margin-top: 7px;
+    margin-right: 19px;
+}
+
+.counter-contents {
+    text-align: center;
+    display: inline-block;
+}
+
+.counter-title3 h1 {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.counter-title3 span {
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+h5.texts {
+    font-size: 16px;
+    color: #9ca5b5;
+    font-weight: 400;
+    font-family: "Arimo";
+}
+
+/*================================
+ <--elecson  Donate Section style-two Css-->
+==================================*/
+
+.contact-form-box.style1 {
+    border: none;
+    border-top: 5px solid #DF1141;
+    padding: 85px 60px 32px;
+    margin-top: -226px;
+    background: #fff;
+}
+
+.forms-title h1 {
+    color: #012549;
+    font-weight: 600;
+    margin: 0;
+}
+
+h5.check-title {
+    font-size: 22px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    padding: 20px 0 19px;
+}
+
+.dpx.style label {
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    color: #012549;
+    font-weight: 400;
+    font-family: "Arimo";
+    line-height: 38px;
+}
+
+.option_input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 5.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    transition: all 0.15s ease-out 0s;
+    background: #e2e5e8;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.4rem;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+
+.option_input:checked {
+    background: #E11143;
+}
+
+.option_input:checked::before {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    content: '\f00c';
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    align-items: center;
+    font-family: 'Font Awesome 5 Free';
+    left: 5px;
+    top: 5px;
+}
+
+.option_input:focus {
+    border: 1px solid #E11143;
+}
+
+/*================================
+ <--Start elecson  Gallery Section   Css-->
+=================================*/
+
+.gllery-section {
+    background: url(assets/images/resource/gallery_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 105px 0 75px;
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.gallery-thumb {
+    position: relative;
+    z-index: 1;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.gallery-thumb:hover {
+    transform: scale(1.2);
+}
+
+.gallery-thumb:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+    content: "";
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    z-index: 2;
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
+}
+
+.gallery-thumb:hover:before {
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0);
+}
+
+.gallery-thumb img {
+    width: 100%;
+}
+
+/*<!-- ============================================================== -->
+<!-- Start   elecson Contact Area Css -->
+<!-- ============================================================== -->*/
+
+.contact-section {
+    padding: 95px 0 60px;
+}
+
+.contact-left {
+    position: relative;
+    margin-left: 36px;
+}
+
+.row.contact_bg {
+    padding: 43px 23px 50px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgb(88 82 174 / 10%);
+    position: relative;
+}
+
+.row.contact_bg p {
+    color: #1d263a;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form_box input {
+    border: 1px solid rgba(100, 100, 100, 0.1);
+    width: 100%;
+    height: 50px;
+    padding: 0 18px;
+    margin-bottom: 20px;
+    outline: 0;
+}
+
+.form_box input::placeholder {
+    color: rgba(100, 100, 100, 0.8);
+}
+
+.form_box textarea {
+    width: 100%;
+    height: 135px;
+    padding: 14px 18px;
+    border: 1px solid rgba(100, 100, 100, 0.1);
+    outline: 0;
+}
+
+.form_box textarea::placeholder {
+    color: rgba(100, 100, 100, 0.8);
+}
+
+.contact-form-button button {
+    background: #E11143;
+    color: #fff;
+    border: 1px solid #E11143;
+    padding: 11px 33px;
+    margin-top: 35px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.contact-form-button button:hover {
+    color: #E11143;
+}
+
+.contact-form-button button:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    background: #fff;
+    height: 100%;
+    transition: .5s;
+    width: 0;
+    z-index: -1;
+}
+
+.contact-form-button button:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+.contact-form-button button i {
+    margin-left: 10px;
+}
+
+/* google section  */
+
+.mapouter.fixed-height {
+    height: 600px;
+}
+
+.gmap_canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.mapouter iframe {
+    height: 92%;
+    width: 100%;
+}
+
+/*================================
+ <--Start elecson  Blog Section   Css-->
+=================================*/
+
+.blog-section {
+    padding: 105px 0 80px;
+}
+
+.blog-section p.section-description.style {
+    width: 55%;
+    text-align: center;
+    margin: auto;
+}
+
+.single-blog-box {
+    position: relative;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.blog-thumb {
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.blog-thumb:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+    content: "";
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    z-index: 2;
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
+}
+
+.single-blog-box:hover .blog-thumb::before {
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0);
+}
+
+p.tag {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.72;
+    font-weight: 400;
+    color: #fff;
+    background: #E01142;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+.blog-thumb img {
+    width: 100%;
+}
+
+.blog-contents {
+    filter: drop-shadow(0 0 7.5px rgba(0, 0, 0, 0.15));
+    background-color: #ffffff;
+    padding: 44px 20px 32px 35px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.blog-date p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    background: #E11143;
+    padding: 4px 15px;
+    position: absolute;
+    top: -17px;
+}
+
+p.meta-blog-date {
+    font-size: 16px;
+    color: #e01142;
+    font-weight: 400;
+    font-family: "Arimo";
+    border-bottom: 1px solid #01254936;
+    padding-bottom: 13px;
+}
+
+p.meta-blog-date span {
+    float: right;
+}
+
+p.meta-blog-date p {
+    float: right;
+}
+
+p.meta-blog-date i {
+    margin-right: 10px;
+}
+
+.blog-title h3 a {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 30px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    margin-top: -3px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.blog-btn a {
+    display: inline-block;
+    font-size: 16px;
+    color: #e01142;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin-top: 1px;
+}
+
+/*================================
+ <--elecson   Blgo Details  Area Css-->
+==================================*/
+
+.blog-detials-area {
+    padding: 110px 0 110px;
+}
+
+.blog-grid-area {
+    padding: 120px 0 90px;
+}
+
+.blog-details-main {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
+}
+
+.blog-details-meta {
+    background: #E11143;
+    padding: 16px 30px;
+}
+
+.blog-details-meta span {
+    margin-right: 30px;
+    color: #fff;
+}
+
+.blog-details-meta span i {
+    color: #fff;
+    padding-right: 5px;
+}
+
+.blog-details-content {
+    padding: 20px 0 18px;
+}
+
+.blog-details-content h2 {
+    margin-bottom: 15px;
+    font-size: 34px;
+    line-height: 60px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.blog-details-thumb img {
+    width: 100%;
+}
+
+.blog-details-des {
+    padding: 30px 0 10px;
+}
+
+.blog-details-blockquote {
+    background: #1F85EA;
+    padding: 40px 38px 26px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.blog-details-blockquote blockquote {
+    font-size: 18px;
+    color: #fff;
+}
+
+.blog-details-video-thumb {
+    margin-top: 30px;
+    position: relative;
+}
+
+.blog-details-video-thumb img {
+    width: 100%;
+}
+
+.blog-details-video-thumb-inner img {
+    width: 100%;
+}
+
+.blog-details-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.blog-details-content-list p i {
+    font-size: 14px;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 100%;
+    margin-right: 15px;
+    color: #E11143;
+}
+
+.blog-detials-area .blog-content {
+    padding: 20px 30px 38px;
+}
+
+.blog-details-button a {
+    display: inline-block;
+    border: 2px solid #E11143;
+    padding: 3px 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.blog-details-button a:before {
+    position: absolute;
+    content: "";
+    left: -2px;
+    top: -1px;
+    height: 104%;
+    width: 104%;
+    background: #E11143;
+    z-index: -1;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.blog-details-button a.active {
+    background: transparent;
+    transition: .5s;
+    margin-left: 10px;
+    color: #E11143;
+}
+
+.blog-details-button a.active:before {
+    background: transparent;
+}
+
+.blog-details-button a.active:hover:before {
+    background: #E11143;
+}
+
+.blog-details-button a.active:hover {
+    color: #fff;
+    border-color: #E11143;
+}
+
+.blog-details-social {
+    text-align: right;
+}
+
+.blog-details-social a {
+    display: inline-block;
+    border: 2px solid #E11143;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 14px;
+    transition: .5s;
+    margin-left: 5px;
+    color: #E11143;
+}
+
+.blog-details-social a:hover {
+    background: #E11143;
+    border-color: #E11143;
+    color: #fff;
+}
+
+/* Blog Details Author */
+
+.blog-details-author {
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    padding-top: 40px;
+    margin-top: 32px;
+}
+
+.blog-details-author-inner {
+    background: #E11143;
+    padding: 30px 30px 24px;
+}
+
+.blog-details-author-thumb {
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-details-author-content h2 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #ffff;
+}
+
+.blog-details-author-content p {
+    color: #ffffffbd;
+}
+
+/* Comment CSS */
+
+.blog-details-comment {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.blog-details-comment-thumb {
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-details-comment-content {
+    overflow: hidden;
+}
+
+.blog-details-comment-content h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.blog-details-comment-content span {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.blog-details-comment-reply {
+    position: absolute;
+    right: 25px;
+}
+
+.blog-details-comment-reply a {
+    background: #E11143;
+    padding: 3px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.blog-details-comment.reply {
+    margin-left: 70px;
+    padding-top: 35px;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Blog Details Contact */
+
+.blog-details-contact {
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    margin: 12px 10px 10px;
+    padding-top: 8px;
+}
+
+/*input-box*/
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #0202021a;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    outline: 0;
+    border-radius: 3px;
+}
+
+.input-box textarea {
+    width: 100%;
+    height: 207px;
+    outline: 0;
+    border: 1px solid #0202021a;
+    padding: 22px 20px 0;
+    border-radius: 3px;
+}
+
+/*input button*/
+
+.input-button {
+    margin-top: 27px;
+}
+
+.input-button button {
+    display: inline-block;
+    padding: 13px 39px;
+    outline: 0;
+    border: 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: #E11143;
+    border: 1px solid #E11143;
+    transition: .5s;
+}
+
+.input-button button:hover {
+    border: 1px solid #E11143;
+    color: #E11143;
+    background: none;
+}
+
+.input-button button i {
+    margin-left: 10px;
+}
+
+/*widget search*/
+
+.widget_search {
+    padding: 19px 40px 40px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background: #fff;
+    -webkit-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+}
+
+.widget_search form {
+    position: relative;
+    margin-top: 25px;
+}
+
+.widget_search input {
+    border-radius: 4px;
+    padding-left: 20px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    outline: 0;
+    border: 1px solid rgba(1, 37, 73, 0.10196078431372549);
+}
+
+button.icons {
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    padding: 1px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    background: #E11143;
+    border-radius: 0 4px 4px 0;
+}
+
+/*widget categories box*/
+
+.widget-categories-box {
+    padding: 18px 40px 18px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background: #fff;
+    -webkit-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+}
+
+.widget-categories-box.style1 {
+    padding: 18px 40px 12px;
+}
+
+/*title*/
+
+.categories_title h4 {
+    font-size: 24px;
+    padding: 0px 0 8px;
+    margin: 0 0 8px;
+    position: relative;
+    line-height: 60px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    border-bottom: 2px solid #E8EAEA;
+}
+
+.categories_title h4:before {
+    position: absolute;
+    content: "";
+    left: -40px;
+    top: 20px;
+    height: 25px;
+    width: 5px;
+    background: #E11143;
+}
+
+/*categories menu*/
+
+.widget-categories-menu ul {
+    display: block;
+    padding: 0;
+}
+
+.widget-categories-menu ul li {
+    display: block;
+    list-style: none;
+    background: transparent;
+    padding: 16px 0px 16px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #E8EAEA;
+}
+
+.widget-categories-menu ul li:last-child {
+    border: none;
+}
+
+.widget-categories-menu ul li a {
+    display: block;
+    color: #012549;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.widget-categories-menu ul li a span {
+    display: inline-block;
+    float: right;
+    background: #012549;
+    height: 22px;
+    width: 22px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 6px;
+    color: #fff;
+    line-height: 22px;
+    transition: .5s;
+}
+
+.widget-categories-menu ul li:hover a span {
+    background: #E11143;
+    color: #fff;
+}
+
+.widget-categories-menu ul li:hover a {
+    color: #E11143;
+}
+
+.pdf-button a {
+    display: block;
+    background: #E11143;
+    padding: 15px 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pdf-button a i {
+    float: right;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+/* Sidber Recent Post */
+
+.sidber-widget-recent-post {
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 22px;
+}
+
+.sidber-widget-recent-post.style1 {
+    margin-bottom: 0px;
+}
+
+.sidber-widget-recent-post:last-child {
+    border: none;
+}
+
+.recent-widget-content a {
+    color: #1b1b1b !important;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    line-height: 26px;
+    transition: .5s;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+.recent-widget-thumb {
+    float: left;
+    margin-right: 25px;
+}
+
+.sidber-widget-recent-post .recent-widget-content a {
+    color: #E11143;
+    font-size: 18px;
+}
+
+/* Sidber Achivement CSS */
+
+.widget-achivement ul {
+    padding: 0;
+}
+
+.widget-achivement ul li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+.widget-achivement ul li a i {
+    font-size: 17px;
+    margin-right: 3px;
+}
+
+.widget-achivement ul li a {
+    font-weight: 600;
+    transition: .5s;
+    color: #1b1b1b;
+    text-decoration: none;
+}
+
+.widget-achivement ul li a span {
+    float: right;
+}
+
+.widget-achivement ul li a:hover {
+    color: #E11143;
+}
+
+/* Sidber Widget Gallery CSS */
+
+.widget-gallery {
+    overflow: hidden;
+}
+
+.widget-gallery-thumb {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Sidber Widget Tags CSS */
+
+.widget-tags a {
+    display: inline-block;
+    border: 1px solid #eaeaea;
+    padding: 8px 19px;
+    margin: 4px 3px;
+    border-radius: 2px;
+    color: #1b1b1b;
+    font-weight: 400;
+    position: relative;
+    transition: .5s;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.widget-tags a:hover {
+    color: #fff;
+    border-color: #E11143;
+    background: #E11143;
+}
+
+.widget-tags a:hover:before {
+    width: 102%;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- elecson Scrollup Section -->
+<!-- ============================================================== -->*/
+
+.scroll-area {
+    position: relative;
+    z-index: 999;
+}
+
+.scroll-area .go-top {
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    right: 30px;
+    color: #ffffff;
+    background-image: -moz-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    background-image: -webkit-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    z-index: 9999;
+    width: 45px;
+    text-align: center;
+    height: 45px;
+    line-height: 42px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.9s ease-out 0s;
+    -moz-transition: all 0.9s ease-out 0s;
+    border-radius: 10px;
+}
+
+.scroll-area .go-top i {
+    position: absolute;
+    top: 50%;
+    left: -4px;
+    right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+}
+
+.scroll-area .go-top i:last-child {
+    opacity: 0;
+    visibility: hidden;
+    top: 60%;
+}
+
+.scroll-area .go-top::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to right, #CE214F 0%, #CE214F 100%);
+    background-image: -ms-linear-gradient(0deg, #CE214F 0%, #CE214F 100%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    border-radius: 100%;
+}
+
+.scroll-area .go-top:focus,
+.scroll-area .go-top:hover {
+    color: #fff;
+}
+
+.scroll-area .go-top:focus::before,
+.scroll-area .go-top:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-area .go-top:focus i:first-child,
+.scroll-area .go-top:hover i:first-child {
+    opacity: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+.scroll-area .go-top:focus i:last-child,
+.scroll-area .go-top:hover i:last-child {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+}
+
+.scroll-area .go-top.active {
+    top: 95%;
+    -webkit-transform: translateY(-98%);
+    -moz-transform: translateY(-98%);
+    opacity: 1;
+    visibility: visible;
+    border-radius: 0;
+    right: 30px;
+    border-radius: 100%;
+}
+
+.top-wrap {
+    position: relative;
+}
+
+.top-wrap .go-top-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    top: 3px;
+    z-index: 1;
+    background: #CE214F;
+}
+
+.top-wrap .go-top-button i {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 4px;
+    color: #fff;
+}
+
+.top-wrap .go-top-button::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 45px;
+    height: 45px;
+    -webkit-animation: ripple 1.6s ease-out infinite;
+    -moz-animation: ripple 1.6s ease-out infinite;
+    opacity: 0;
+    background-image: -moz-linear-gradient(0deg, #CE214F 0%, #CE214F 100%);
+    background-image: -webkit-linear-gradient(0deg, #CE214F 0%, #CE214F 100%);
+    border-radius: 100%;
+}
+
+.top-wrap .go-top-button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.scroll-area.home-two .top-wrap .go-top-button {
+    background: #00AFF5;
+}
+
+.scroll-area.home-two .top-wrap .go-top-button::after {
+    background-image: -moz-linear-gradient(0deg, #00AFF5 0%, #00AFF5 100%);
+    background-image: -webkit-linear-gradient(0deg, #00AFF5 0%, #00AFF5 100%);
+}
+
+@keyframes ripple {
+    0%,
+    35% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        transform: scale(2);
+    }
+}
+
+/*===========================
+<-- elecson Loader Css -->
+=============================*/
+
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s 1s ease;
+    z-index: 666;
+}
+
+.loader {
+    position: relative;
+    display: block;
+    z-index: 201;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    border-radius: 50%;
+    transition: all 1s 1s ease;
+    border: 3px solid transparent;
+    border-top-color: #E11143;
+    -webkit-animation: spin 1.5s linear infinite;
+    -moz-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+.loader:before {
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-left-color: #E11143;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.loader:after {
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-right-color: #fff;
+    -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+    -o-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+}
+
+/*/ Here comes the Magic /*/
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loader-wrapper .loder-section {
+    position: fixed;
+    top: 0;
+    width: 52%;
+    height: 100%;
+    background: #111;
+    z-index: 2;
+}
+
+.loader-wrapper .loder-section.left-section {
+    left: 0;
+    transition: 1s 1.4s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+    right: 0;
+    transition: 1s 1.4s ease;
+}
+
+/*/ When page loaded /*/
+
+.loaded .loder-section.left-section {
+    left: -100%;
+}
+
+.loaded .loder-section.right-section {
+    right: -100%;
+}
+
+.loaded .loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded .loader {
+    top: -100%;
+    opacity: 0;
+}
+
+< !--==============================================================-->< !-- corporate Bounce Animation Css -->< !--==============================================================-->*/
+/* bounce-animate */
+
+.bounce-animate {
+    animation-name: float-bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate2 {
+    animation-name: float-bob2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob2;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob2;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob2;
+    -o-animation-duration: 3s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate3 {
+    animation-name: float-bob3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob3;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob3;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob3;
+    -o-animation-duration: 3s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate4 {
+    animation-name: float-bob4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob4;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob4;
+    -ms-animation-duration: 5s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob4;
+    -o-animation-duration: 5s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate5 {
+    animation-name: float-bob5;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob5;
+    -moz-animation-duration: 6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob5;
+    -ms-animation-duration: 6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob5;
+    -o-animation-duration: 6s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate-slow {
+    animation-name: float-bob5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob5;
+    -moz-animation-duration: 15s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob5;
+    -ms-animation-duration: 15s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob5;
+    -o-animation-duration: 15s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.bounce-animate-3 {
+    animation-name: float-bob6;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -moz-animation-name: float-bob6;
+    -moz-animation-duration: 6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob6;
+    -ms-animation-duration: 6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob6;
+    -o-animation-duration: 6s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+@-webkit-keyframes float-bob {
+    0% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    50% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+    100% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+}
+
+@-webkit-keyframes float-bob2 {
+    0% {
+        -webkit-transform: translateY(-60px);
+        transform: translateY(-60px);
+    }
+    50% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    100% {
+        -webkit-transform: translateY(-60px);
+        transform: translateY(-60px);
+    }
+}
+
+@-webkit-keyframes float-bob3 {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+    50% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
+
+@-webkit-keyframes float-bob4 {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+    50% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+    100% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
+
+@-webkit-keyframes float-bob5 {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+    50% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    100% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
+
+@-webkit-keyframes float-bob6 {
+    0% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+    50% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+}
+
+@-webkit-keyframes movebounce {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes movebounce {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes moveleftbounce {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    50% {
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+@keyframes moveleftbounce {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    50% {
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+/*--==============================================->
+  <!-- corporate Animation Dance -->
+ ==================================================-*/
+
+/**/
+
+.dance3 {
+    -webkit-animation: dance3 8s alternate infinite;
+}
+
+@keyframes dance3 {
+    0% {
+        -webkit-transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+.dance {
+    -webkit-animation: dance 2s alternate infinite;
+}
+
+@keyframes dance {
+    0% {
+        -webkit-transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+.dance2 {
+    -webkit-animation: dance2 4s alternate infinite;
+}
+
+@keyframes dance2 {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    50% {
+        -webkit-transform: translate3d(25px, -25px, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, -25px, 25px);
+    }
+}
+
+.watermark-animate {
+    -webkit-animation: watermark-animate 8s infinite;
+    animation: watermark-animate 8s infinite;
+    animation-direction: alternate-reverse;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@keyframes watermark-animate {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+/*rotateme animation*/
+
+.rotateme {
+    -webkit-animation-name: rotateme;
+    animation-name: rotateme;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
